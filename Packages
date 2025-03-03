@@ -1,18 +1,19 @@
-Package: com.muirey03.cr4shed
-Version: 4.3.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Muirey03
-Installed-Size: 2488
-Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
-Filename: ./debs/3-.cr4shed.deb
-Size: 250868
-MD5sum: 839e3851d125bab890c3a972e3901229
-SHA1: 7048356ed411d21d0ab7787182771d79c7dd7a19
-SHA256: a4d22094127c9f44c5333a317af154f5a147f45f850e83d8cb5fae6dc8bf6cfc
+Package: com.be-huge.floating-view
+Version: 1.4.9-7
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.4.9-7_iphoneos-arm64e.deb
+Size: 1344986
+MD5sum: a0a4f12d5388f229547d826ddbfbe851
+SHA1: 452ce08e4c487c2404e35d57c89036dbd0487128
+SHA256: 781529f478a7c184757f810286a640398e8678c8e356bde921fe85a85d671d47
 Section: Tweaks
-Description: A modern crash reporter for iOS
-Author: Muirey03
-Name: Cr4shed
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView(roothide)
 
 Package: com.be-huge.floating-view
 Version: 1.4.9-7
@@ -29,3 +30,19 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView(rootless)
+
+Package: com.muirey03.cr4shed
+Version: 4.3.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Muirey03
+Installed-Size: 2488
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/3-.cr4shed.deb
+Size: 250868
+MD5sum: 839e3851d125bab890c3a972e3901229
+SHA1: 7048356ed411d21d0ab7787182771d79c7dd7a19
+SHA256: a4d22094127c9f44c5333a317af154f5a147f45f850e83d8cb5fae6dc8bf6cfc
+Section: Tweaks
+Description: A modern crash reporter for iOS
+Author: Muirey03
+Name: Cr4shed
