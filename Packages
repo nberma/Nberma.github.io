@@ -37,7 +37,7 @@ Architecture: iphoneos-arm64
 Maintainer: Muirey03
 Installed-Size: 2488
 Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
-Filename: ./debs/3-.cr4shed.deb
+Filename: debs/3-.cr4shed.deb
 Size: 250868
 MD5sum: 839e3851d125bab890c3a972e3901229
 SHA1: 7048356ed411d21d0ab7787182771d79c7dd7a19
