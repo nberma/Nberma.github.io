@@ -14,3 +14,19 @@ Description: A modern crash reporter for iOS
 Author: Muirey03
 Name: Cr4shed
 
+Package: com.be-huge.floating-view
+Version: 1.4.9-7
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.4.9-7_iphoneos-arm64e.deb
+Size: 1344986
+MD5sum: a0a4f12d5388f229547d826ddbfbe851
+SHA1: 452ce08e4c487c2404e35d57c89036dbd0487128
+SHA256: 781529f478a7c184757f810286a640398e8678c8e356bde921fe85a85d671d47
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
