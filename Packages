@@ -29,4 +29,20 @@ SHA256: 781529f478a7c184757f810286a640398e8678c8e356bde921fe85a85d671d47
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
-Name: floatingView
+Name: floatingView(roothide)
+
+Package: com.be-huge.floating-view
+Version: 1.4.9-7
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2692
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.4.9-7_iphoneos-arm64.deb
+Size: 527120
+MD5sum: c792f497f313e380901f1e1338a2e381
+SHA1: a5f72c52ca7396bce4cb8ffb6cc72f909a3a0cae
+SHA256: 21bd26c0a2379a43a06f3d5c328ff3f1efbc339fa793f22a49834123c6d527cd
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView(rootless)
