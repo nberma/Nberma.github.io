@@ -30,3 +30,39 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView(rootless)
+
+Package: com.sunshinesong.split-view-pro(rootless)
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5468
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/svp140-arm64.deb
+Size: 2295906
+MD5sum: 99996d4ff1d7983807f72abef4ef88d7
+SHA1: c73c6d3c0b3b84b6cdc5cda8d43d50696040273c
+SHA256: 152bb8f1686696ff25fc6e5fd18fd46789918272e0c1ee7ad75c5461a58b2b4e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro(roothide)
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 5468
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./svp140-arm64e.deb
+Size: 4463568
+MD5sum: 220033e8c2191f1b3e93a3f179f24517
+SHA1: 86fa2fbb12090242035abac4ec9eb5167f9de1d5
+SHA256: 2a0da2da7788af247602dd06c25ef4bad08a721079bec47cc8d76012983f228f
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
