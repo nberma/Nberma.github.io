@@ -31,7 +31,7 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView(rootless)
 
-Package: com.sunshinesong.split-view-pro(rootless)
+Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
 Architecture: iphoneos-arm64
 Maintainer: sunshinesong
@@ -45,10 +45,10 @@ SHA256: 152bb8f1686696ff25fc6e5fd18fd46789918272e0c1ee7ad75c5461a58b2b4e
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro
+Name: split-view-pro(rootless)
 Ts: sp-sss
 
-Package: com.sunshinesong.split-view-pro(roothide)
+Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
 Architecture: iphoneos-arm64e
 Maintainer: sunshinesong
@@ -63,6 +63,6 @@ SHA256: 2a0da2da7788af247602dd06c25ef4bad08a721079bec47cc8d76012983f228f
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro
+Name: split-view-pro(roothide)
 Ts: sp-sss
 
