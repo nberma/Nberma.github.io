@@ -63,7 +63,7 @@ SHA256: 2a0da2da7788af247602dd06c25ef4bad08a721079bec47cc8d76012983f228f
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro(roothide)
+Name: split-view-pro(roothide1)
 Ts: sp-sss
 
 Package: com.mrgcgamer.libgcuniversal
