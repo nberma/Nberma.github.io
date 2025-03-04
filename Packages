@@ -152,3 +152,482 @@ Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
 Dev: ichitaso
 Name: IconOrder(roothide)
 Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+
+Package: com.0xkuj.ccadsbegone.rootless
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 6096
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Conflicts: com.0xkuj.ccadsbegone
+Filename: ./debs/com.0xkuj.ccadsbegone.rootless_1.5_iphoneos-arm64.deb
+Size: 947940
+MD5sum: 05ef49a4bca7fa2bfc5fb1feb0e4b7c2
+SHA1: 444f331d98a0b32c87fb3a91a7c2abc6497e2c03
+SHA256: 9242f11381d79aeff9f0f3aac938c1d41083bdf3734944f91765aad7d818b6ba
+Section: Tweaks
+Description: CC Toggle to block ads on demand!
+Author: 0xkuj
+Name: CCAdsBeGone (rootless)
+
+Package: com.0xkuj.ccadsbegone.rootless
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 6096
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Conflicts: com.0xkuj.ccadsbegone
+Filename: ./debs/com.0xkuj.ccadsbegone.rootless_1.5_iphoneos-arm64e.deb
+Size: 2813712
+MD5sum: 267eb77148ffbfa7fb6bc79f2ce0cd82
+SHA1: c38ae5c3fbeb85680aac9f03b4745dce24f53467
+SHA256: e83166a037f4ab9b7f74bcbd5c4a406a3487306a002c29cdb9a611219d8f1b46
+Section: Tweaks
+Description: CC Toggle to block ads on demand!
+Author: 0xkuj
+Name: CCAdsBeGone (roothide)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64-1.deb
+Size: 1031448
+MD5sum: 00e6353fd25460f7844e9270736041b1
+SHA1: 63c811350aaec6eab132af1631d2f73d3b685e43
+SHA256: f946eab92072caea88f8e6f046589fff7ce3f905c376acf4f266f1b175f08419
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3(rootless)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e-1.deb
+Size: 2269728
+MD5sum: c9938a872b81d648c7dbbf289c3a9107
+SHA1: dfffb0dc342c4cb79b8572aecb6391f87f580158
+SHA256: 67403ff1c374f93715e059852869d692aa867b20c9ddca30da059073d12b2d12
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3(roothide)
+
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.82flex.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 29634
+MD5sum: c88c6bf39abf3e5ff4d72a6620af6e0a
+SHA1: a5d1959ee9e869dd44e1cc3c62554e5c23e7dc9b
+SHA256: f35db44d6f38a6dc7b67bd5363f072f5f80286e6c9bb8e8ee16857feac48f082
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background(rootless)
+
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.82flex.removewidgetbg_1.7_iphoneos-arm64e.deb
+Size: 36736
+MD5sum: cd2df13fb080a6baf51e0e5c2bdd8e7e
+SHA1: 4104dd2777abbf769a3552a8f5ca5499ed0d7275
+SHA256: 91f7c475904682edabf35d11232451b24f7e5ee67e19b8bda4409d50d8271487
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background(roothide)
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 489
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/ccsupport_1.3.13-2_iphoneos-arm64.deb
+Size: 59098
+MD5sum: d5539bc8bdb34e422c81efc852c0d27f
+SHA1: 139c8e132f59d77252b84e32e1c84c2a52434bdf
+SHA256: 58c13b262ccb361787e30b58d81d8f7b0f37edb5bfbaa685caf4495e1fb378ef
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport(rootless)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290546
+MD5sum: 3f9e6b11866f656255a80d57ddb7f258
+SHA1: 9f3243b042f64f1a36509be4c198148547148336
+SHA256: cdd1f47c08843bde9b0e34ec07697a29dcdd56f8493fe5503f8085e7c1d5fb76
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker(rootless)
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.alderis
+Version: 1.2.3-8+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/ws.hbang.alderis_1.2.3-8+debug_iphoneos-arm64e.deb
+Size: 857360
+MD5sum: 163162fd0db44b348478d1973d8576ea
+SHA1: ee9d931f1a598cbcc57a4757bb939fa2edd07204
+SHA256: 23338feb0fa8f0adbdd3ae843df1d191e18bd9450ef1e813983584cf0f094575
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Dev: hbang
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker(roothide)
+Support: https://hashbang.productions/support/
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 256
+Depends: firmware (>= 7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26942
+MD5sum: 4b20028127ee97b886d5a6463997af7a
+SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
+SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Description: A modern AppList alternative
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Dev: opa334
+Name: AltList(rootless)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 27902
+MD5sum: f1cfdb97679bc2b30b2918220ee9351f
+SHA1: 9eef53971a1a30e13cfc2adf3a18b655dd2d9eb2
+SHA256: 7d145977d3fbcd5030564dc429e18f7456c29f92020c36f32e61d4a82418f737
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList(roothide)
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common_2.0_iphoneos-arm64.deb
+Size: 198906
+MD5sum: b41babea6af14166166ac70da0d472bb
+SHA1: d7703febee3eaea3b1319d18cff7c7d59a9af2ab
+SHA256: 67338fa3f52951d5cbb900e8582e15dfff5964104bf627643bfe3901cda69652
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support(rootless)
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0-14+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 5632
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common_2.0-14+debug_iphoneos-arm64e.deb
+Size: 1342340
+MD5sum: cae31c7b2d36dc55a8f732b1c4de4481
+SHA1: c1596f6eb739839616a56a3ce0816c3ebcc51ab5
+SHA256: 8da18716ee4ff708023124efcbf712e0f6c162c9c7ff7d1c3f4f5bcfb293de56
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support(roothide)
+Support: https://hashbang.productions/support/
+
+Package: com.amywhile.aemulo
+Version: 1.2.5
+Architecture: iphoneos-arm64
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Filename: ./debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64-1.deb
+Size: 624980
+MD5sum: 0b86428c66fc5e044ad39af3db9fa377
+SHA1: 52392a9608ed81d3c22a4f500640955457f59469
+SHA256: 94d576e8b92c470d862f7b9893f1b21c667ced68d8dc8bdd1ea0837fcc0f1e9e
+Section: Tweaks
+Description: NFC Frickery
+Author: Amy While <support@anamy.gay>
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Name: Aemulo(rootless)
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+
+Package: com.amywhile.aemulo
+Version: 1.2.5
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Filename: ./debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64e.deb
+Size: 1570962
+MD5sum: 8dbf2191d9722b17f4e3b976154b5065
+SHA1: 8670a7c9cc5b03ab14bc94a55a92cca4ff7a400f
+SHA256: ed17d3cf9cde7d70656a77c6434c76a04d262bc73dd91ed989011c1fa78de83e
+Section: Tweaks
+Description: NFC Frickery
+Author: Amy While <support@anamy.gay>
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Name: Aemulo(roothide)
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+
+Package: com.anthopak.lastlook
+Version: 4.2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1743
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/com.anthopak.lastlook_4.2.2_iphoneos-arm64.deb
+Size: 445636
+MD5sum: 316251d1eeef42f73f99a498eb1d7971
+SHA1: 32ac69ca35c620f822b2b111bfecfc8445dff05d
+SHA256: 3debfd3faae9db16d5fe39e78a93f7b0930be44f274193095b31638e10a5d4fd
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook(rootless)
+
+Package: com.anthopak.lastlook
+Version: 4.2.2
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1743
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/com.anthopak.lastlook_4.2.2_iphoneos-arm64e.deb
+Size: 530082
+MD5sum: f7d90b61ec215c58e94e8c6292caad45
+SHA1: 15de55d0e9d5c0b055b599db766ef44d9ddad87c
+SHA256: aef328f486ea2204247e9e38bae191462f7632169aa386f125d43067d56ff6fa
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook(roothide)
+
+Package: com.hk.lastlook.cn.rl
+Version: 4.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.hk.lastlook.cn.rl_4.2_iphoneos-arm64.deb
+Size: 9708
+MD5sum: 35b1de50b6f2838efc29956df265cb74
+SHA1: 07754838bf8e43bebcf6e3081d0ea9b7e0f9eb29
+SHA256: acd226478fc2bb490ce0b800798dcf535d33078763192e668da8ecfc7e4844ba
+Section: 汉化
+Description: LastLook 简体中文包(rootless)。
+Author: 妖刀
+Name: LastLook 简体中文包(rootless)
+
+Package: com.hk.lastlook.cn.rl
+Version: 4.2
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.hk.lastlook.cn.rl_4.2_iphoneos-arm64e.deb
+Size: 12218
+MD5sum: 57f356a219110b4c5d8a36921de024ef
+SHA1: 8552aeac7e29d7eafb8809b00365a2834aadd5a9
+SHA256: 4839e261421bd5c11a2289410a5bab6570eff2bd684c393f2e67fda3333f961b
+Section: 汉化
+Description: LastLook 简体中文包(rootless)。
+Author: 妖刀
+Name: LastLook 简体中文包(roothide)
+
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/com.kingpuffdaddi.control-center.ccvpn_1.0.6_iphoneos-arm64.deb
+Size: 15216
+MD5sum: 92b2ebe26ff0023b260c39413cffbe80
+SHA1: 881eaeb8f9c22be798e65478940783ad672b0753
+SHA256: e65eafb89e52fef08e814323e43c1d5c7474955dc401504fd1783ff536fc6955
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: A Control Center Module to connect/disconnect VPN
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Name: CCVPN（rootless）
+
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/com.kingpuffdaddi.control-center.ccvpn_1.0.6_iphoneos-arm64e.deb
+Size: 18022
+MD5sum: 8dc6a5518aef2e0ad31010ccd068cf39
+SHA1: 2278134ebbcc47f9e6fb34952dd6d02601a0d818
+SHA256: 670a872440881bd342dcf41f1e6ce585e717a846a6373abc753892606467b682
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: A Control Center Module to connect/disconnect VPN
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Name: CCVPN(roothide)
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm64.deb
+Size: 398774
+MD5sum: cfbf9eec21c35fd722e096cc446ad58b
+SHA1: 60fe6becaedc2da0586fb5dbd2527ec37edd456c
+SHA256: d449a8e8f2ea0fe1ddde89f07c22871115983cda520a7429c32f4459952cc43f
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI(rootless)
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: Ethan Whited
+Installed-Size: 812
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm64e.deb
+Size: 407476
+MD5sum: 7d9c421290d0f0676abff6e40c803ea0
+SHA1: ddf0a967f24d37988598707089ba7f19a66ebaba
+SHA256: 5d9301a2f8bbd0136986bd22cdc8ee15d8ba260cb68e9d0ff74a04ab31307cb7
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI(roothide)
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm64.deb
+Size: 236990
+MD5sum: 0ddd2bd09fe99cdbfbc14ef11c03f463
+SHA1: 6ac4631697e08a7bd4a24475dc80027f5cd5966c
+SHA256: 43b8515cda84b44d6cabea98704c1dda155d38a3235c9048795fb19b5381571f
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria(rootless)
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm64e.deb
+Size: 274464
+MD5sum: a0ae04ce1ea00b9d329f9290ae40956b
+SHA1: a55c3d4aea98b60e849e3814d25ed8a752595713
+SHA256: c5d170efc6ada314aa5293794586c9cc18de140464df7a1989ccc99faec9eee8
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria(roothide)
