@@ -66,3 +66,89 @@ Author: sunshinesong
 Name: split-view-pro(roothide)
 Ts: sp-sss
 
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: MrGcGamer
+Installed-Size: 380
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64.deb
+Size: 54510
+MD5sum: 58a32a3d0689abb8e4622dedb3f38ccb
+SHA1: a327a6e11310c7128b82d48b2b195b0f24445b68
+SHA256: a1fdb8d5e5062f26113c90c6514ab16585507df8af0c3db00b55e4f51fafaa16
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal(rootless)
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Installed-Size: 380
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e-1.deb
+Size: 74464
+MD5sum: e9e33b38de0caf689254f9ff61423921
+SHA1: 91426e5d968f8792429e5b45ab3c361a9278ed37
+SHA256: 9d9bb75a396da55d6a2f8854579d3fa189fb9c46768c46b275f2844108365e48
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal(roothide)
+
+Package: com.ichitaso.iconorder
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Havoc
+Installed-Size: 168
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: ./debs/com.ichitaso.iconorder_1.0.3_iphoneos-arm64.deb
+Size: 11184
+MD5sum: 2295dfb7f43203f1b46d04be4eb7235c
+SHA1: a05e0535f8a5a28be13a3cd4fe8de874c6e9d3a6
+SHA256: 12b059340a6ff0faa5ca4256b1959a41d17702b4dea94e107bfb08f524dd628c
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios17.5.1
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+Dev: ichitaso
+Name: IconOrder(rootless)
+Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+
+Package: com.ichitaso.iconorder
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Havoc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: ./debs/com.ichitaso.iconorder_1.0.3_iphoneos-arm64e-1.deb
+Size: 61666
+MD5sum: 74b062caae72081b89be696a7a6a3374
+SHA1: ab8c0ba05526daffc79297b8078e16ea762f99ad
+SHA256: 169cba172f23c9b30760e36500d3b7319d7275c992425433234df75938bc1d87
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios17.5.1
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+Dev: ichitaso
+Name: IconOrder(roothide)
+Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
