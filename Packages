@@ -30,19 +30,3 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView(rootless)
-
-Package: com.muirey03.cr4shed
-Version: 4.3.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Muirey03
-Installed-Size: 2488
-Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
-Filename: debs/3-.cr4shed.deb
-Size: 250868
-MD5sum: 839e3851d125bab890c3a972e3901229
-SHA1: 7048356ed411d21d0ab7787182771d79c7dd7a19
-SHA256: a4d22094127c9f44c5333a317af154f5a147f45f850e83d8cb5fae6dc8bf6cfc
-Section: Tweaks
-Description: A modern crash reporter for iOS
-Author: Muirey03
-Name: Cr4shed
