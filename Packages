@@ -631,3 +631,745 @@ Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria(roothide)
+
+Package: chaoge.ChargeLimiter
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: chaoge
+Depends: firmware (>= 5.0)
+Filename: ./debs/chaoge.chargelimiter_1.7_iphoneos-arm64.deb
+Size: 2471570
+MD5sum: f79b74d6860358a36abe8bedcda086b3
+SHA1: 859f8fd7e070d4f2e865e2194463edbd919fa5aa
+SHA256: 9426134aa578b0b7dd200f07b8f3e4680dec0fce75f96e958b08384625cb8ec4
+Section: Applications
+Priority: optional
+Description: ChargeLimiter
+Author: chaoge
+Name: ChargeLimiter(rootless)
+
+Package: cn.zqbb.holdcpu
+Version: 2.3.0-2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3223
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/cn.zqbb.holdcpu_2.3.0-2_iphoneos-arm64.deb
+Size: 942808
+MD5sum: ee7bcf27584f90dd2ef2203d7331c930
+SHA1: 649c8d64eaaec5822f1c40549d7a72cdea1ee5a7
+SHA256: 6f8db52c268cb34b3ae8b2f076a6c64c09b1eeffbe600d43b774f198c05b657f
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=holdcpuDp
+Description: (解除温控) (锁定低电量CPU频率)
+Tag: purpose::extension
+Author: zqbb <w2599z@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=holdcpuDp
+Dev: zqbb
+Icon: file:///var/jb/Library/PreferenceBundles/holdcpu.bundle/icon@2x.png
+Name: Hello CPU(rootless)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.82flex.noredirect
+Version: 1.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 580
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.82flex.noredirect_1.10_iphoneos-arm64.deb
+Size: 55496
+MD5sum: 994a41b57906968fb1d01c7c943c8636
+SHA1: c125c0578bdc27a93caeb0259efbb50c2acb35e8
+SHA256: 9480f6d0159ed69569eed6246c4286fde4272a5d03bef2ac86bb0f402bf705a2
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect(rootless)
+
+Package: com.anthopak.appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1802
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
+Conflicts: com.anthopak.appaze, com.anthopak.appaze2
+Filename: ./debs/com.anthopak.appaze3_1.0.1_iphoneos-arm64.deb
+Size: 867076
+MD5sum: a830579f5c952a66beb59b0496dadf69
+SHA1: d866dec8f6fc35b7dbcf47b5b9827cc4ffb33151
+SHA256: 6c56f2270f756c6e8d72821c9b8838b82f6c8aec3780aa4861f3d25707f7274d
+Section: Tweaks
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/appaze3
+Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
+Name: Appaze 3(rootless)
+
+Package: com.dao.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: ./debs/com.dao.bigshotsnapper3plugin_1.1_iphoneos-arm64-1.deb
+Size: 19256
+MD5sum: b1d501cc728682627113f5ffcced8d18
+SHA1: 243d9a241649369a6dc75d95e271791c810ebd80
+SHA256: 9b783f02260492f99525d93f599b01de8dd6b26a9477454bd2ca84fc3256529b
+Section: Tweaks
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Author: Jonathan Winger-lang
+Name: BigShot 长截图(rootless)
+
+Package: com.lclrc.cccalc
+Version: 2.1.0
+Architecture: iphoneos-arm64
+Maintainer: gilesgc & paisseon & lclrc
+Installed-Size: 348
+Depends: mobilesubstrate
+Filename: ./debs/com.lclrc.cccalc_2.1.0_iphoneos-arm64.deb
+Size: 72872
+MD5sum: aaa758b27345284c2149107e1311c07e
+SHA1: 13ea508f2feb5581ddb25a99025378453a7e9a2f
+SHA256: 46eb19098e36ec662b43b5b0a1d5113c85e5e8f432edfb537a1d471406c3c192
+Section: Tweaks
+Description: 把控制中心的计算器变成真正的计算器，而不仅仅是复制上一个计算结果。
+Author: gilesgc & paisseon & lclrc
+Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
+Name: CCCalc(rootless)
+
+Package: com.lclrc.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64.deb
+Size: 982558
+MD5sum: fa7ff23082e1f247f598958cc40a28e9
+SHA1: 5585ba0f8ac3c184848a4d5d02fefe99587b613d
+SHA256: 10aabd8000c859d19f4f8f2a5a44258c34749d7098ccb7f4975866aa64edf2f6
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It(rootless)
+
+Package: com.mtac.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2952
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/com.mtac.lynxtwo_2.5.4_iphoneos-arm64.deb
+Size: 679506
+MD5sum: 66c044cc5ebd37b6383d54d21996daa6
+SHA1: 23f233e101c5601132a0f467015796acf5a3da25
+SHA256: ca4cd02da12f0e16999b1e2eef88f2e1d5b83517badd2638d5f5296c5e7773e3
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2(rootless)
+
+Package: com.muirey03.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64
+Maintainer: Muirey03
+Installed-Size: 2488
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/com.muirey03.cr4shed_4.3.2_iphoneos-arm64.deb
+Size: 228780
+MD5sum: 30cff024e7e1abc9b424aa7c5f4d4209
+SHA1: 9014f4ee066a9d64238f39a796221f7e9eefb445
+SHA256: 32915f874a32cba8941a9da78f1dc184d106ee255d9a05055effc3bf92b5bcfe
+Section: Tweaks
+Description: 系统崩溃报告器
+Author: Muirey03
+Icon: https://www.susubaby.top/images/cr4shed.png
+Name: Cr4shed(rootless)
+
+Package: com.nathan.respringcc
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Nathan
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
+Filename: ./debs/com.nathan.respringcc_1.0_iphoneos-arm64.deb
+Size: 5852
+MD5sum: 73a183cc9c39bd47ff3c73bad2fd086d
+SHA1: 2ab95e1bc0eca385e5d1906ad1c77da16e05f3d7
+SHA256: bbc12f5088d9f164f8eea0b8ddceea8e32fb2ed71148af3b15c5e4ac1797e1c2
+Section: Tweaks
+Description: CC toggle to respring
+Author: Nathan
+Name: RespringCC(rootless)
+
+Package: com.opa334.choicy
+Version: 1.5.2-2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1122
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.opa334.choicy_1.5.2-2_iphoneos-arm64.deb
+Size: 160156
+MD5sum: 909b995820b147128f41248a434d22a5
+SHA1: 95eeaa5a9e12ed3be6c990143ec0b5c7f2b9c222
+SHA256: fc3e53aec6468886d8b14fe3626fa4089ac9ca2273b9387929824691480c4269
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy(rootless)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.crane
+Version: 1.3.16-3
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 3228
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.16-3_iphoneos-arm64.deb
+Size: 601170
+MD5sum: 55c128a248127bf418bfc3abbd35e0c6
+SHA1: fddc5d547ed9809b0f122dbcd44959803d2d3821
+SHA256: eec45376df52f82c5a17ba2672e250428600139db685ec1f0ccd0383dcca4767
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane(rootless)
+
+Package: com.opa334.libsandy
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 268
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm64.deb
+Size: 12408
+MD5sum: f749cf7a34cb8136fb5f2bb50d920e83
+SHA1: bd7738c9492d4b4ef6b7979ee44854aee0f8a265
+SHA256: f709903dd9abbd97fe81d8082880b3bf2fa50fafcc0d9c9374cc7d1bb63397ab
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy(rootless)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.pixelomer.shijima-ios
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 3656
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Recommends: libarchive13 (>= 3.7.2), com.opa334.altlist (>= 1.0.10)
+Filename: ./debs/com.pixelomer.shijima-ios_1.2.4_iphoneos-arm64.deb
+Size: 897800
+MD5sum: 7030da6df551c6bf61324be76abf4409
+SHA1: 12419fd86566c4ae3ac4ef897e0f796b6c1d4485
+SHA256: daa5bfc07d33ac344e2e315e2456cfb00c6d567d2695459422b1df079fa1fea0
+Section: Tweaks
+Description: A shimeji simulator for iOS
+Author: pixelomer
+Name: Shijima for iOS(rootless)
+
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/com.ps.letmeblock_1.3.0_iphoneos-arm64.deb
+Size: 6190
+MD5sum: eaebb6437016a6b043e31fa258e85803
+SHA1: a577ade337190ea7c7aaae42b801c0983be611d8
+SHA256: 72cd74890de21f2f94115ee347d7e7a6131e38f7811f0dcdffce6ae37b58c1a0
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock(rootless)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: ./debs/dev.theos.orion14_1.0.2_iphoneos-arm64.deb
+Size: 93284
+MD5sum: fdb72c66bd6018058b57962d76546957
+SHA1: 724dd1f99f51c4082af6f604643b7ce613a21d11
+SHA256: 4fa4ff6f751166c76a12cc3e0fcf2e62bb0ee80e0dcea78b0d4e79de5131666c
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime(rootless)
+
+Package: jp.dcsyhi.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12005
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64.deb
+Size: 10168604
+MD5sum: a6e68bfc9cdc664ca9a494a02b2572fd
+SHA1: 786e121b2395630ce3ed23e51e93370ed820b644
+SHA256: f2cac8022db8a5667d4c1fb5dccae1f8ded90fb1cf18255153b669fe3faf2232
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu(rootless)
+
+Package: me.tomt000.stageduo
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: tomt000
+Installed-Size: 8316
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/me.tomt000.stageduo_1.1.1_iphoneos-arm64.deb
+Size: 4597854
+MD5sum: 96139068cb49b5092a1f4648839fcb22
+SHA1: 7cfad56578d2f9cd64694b07f2dd3116bd32dcaf
+SHA256: 69e9ecc5da69a453b68a71f95ff83a87ad5e9e45ba5df1f22d2b2b01350e1f7a
+Section: Tweaks
+Description: Stage Manager Reimagined for iPhone
+Author: tomt000
+Name: Dynamic Stage(rootless)
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4_iphoneos-arm64.deb
+Size: 233692
+MD5sum: 99ba4b51409b28ea5c1e503b7f56412d
+SHA1: e8361ac1642b7b31b26da8ec5b9e6ac1bc5a2afb
+SHA256: 27303534ce790f1e417dfd1c5951b413f656e90a2aaa5eecfe4763c4773d8ad8
+Section: 应用
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://www.susubaby.top/images/CocoaTop.png
+Name: CocoaTop64(rootless)
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
+
+Package: wiki.qaq.chromatic.rootless
+Version: 3.0-rootless-release-1724937362.2952e67
+Architecture: iphoneos-arm64
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/wiki.qaq.chromatic.rootless_3.0-rootless-release-1724937362.2952e67_iphoneos-arm64.deb
+Size: 3416520
+MD5sum: 7d09465fc3f6672930da31f619b1da9b
+SHA1: a6eaa353e82148a60cad92b6150d96383aecc4cb
+SHA256: 731b09f9008deba285f89994c632b7d4b3d9b2e2a40eab0251507d803cd6e830
+Section: 应用程序
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: 越狱商店saily。仅备份。
+Author: Saily Team <support.0xa1@qaq.wiki>
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: Saily(rootless)
+Website: https://sailyteam.github.io/Saily/index.html
+
+Package: chaoge.ChargeLimiter
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: chaoge
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/chaoge.chargelimiter_1.7_iphoneos-arm64e.deb
+Size: 4621312
+MD5sum: e448ac64f1e9a23b76d58de1b0ac0359
+SHA1: 76e85b3460158a46e3eefc881772016e9962c98a
+SHA256: 2c8eb903bbd0c8db49a754fe9cca62c79205bfcc0755e5c6931aaa4103e90465
+Section: Applications
+Priority: optional
+Description: ChargeLimiter
+Author: chaoge
+Name: ChargeLimiter(roothide)
+
+Package: cn.zqbb.holdcpu
+Version: 2.3.0-2
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3223
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/cn.zqbb.holdcpu_2.3.0-2_iphoneos-arm64e.deb
+Size: 2645736
+MD5sum: 9dda5c849c4158d162f96a1cfe8d28ff
+SHA1: 6eaa512c48c20ea14787b8a46cc4e15227608e2e
+SHA256: 4629249bab199d8144649f9aa8965261c546b499431363dc50b8c7c2fb62e38b
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=holdcpuDp
+Description: (解除温控) (锁定低电量CPU频率)
+Tag: purpose::extension
+Author: zqbb <w2599z@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=holdcpuDp
+Dev: zqbb
+Icon: file:///var/jb/Library/PreferenceBundles/holdcpu.bundle/icon@2x.png
+Name: Hello CPU(roothide)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.82flex.noredirect
+Version: 1.10
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.82flex.noredirect_1.10_iphoneos-arm64e.deb
+Size: 71094
+MD5sum: 271d5895f84238c3f6bc03988990d5d8
+SHA1: 5f989e7c2fc55223ee2a062455a381ccf6873370
+SHA256: bea5130813e5c5118b473cea322e7ac3cf76df6da4102a139751635102f3b96f
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect(roothide)
+
+Package: com.anthopak.appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1802
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
+Conflicts: com.anthopak.appaze, com.anthopak.appaze2
+Filename: ./debs/com.anthopak.appaze3_1.0.1_iphoneos-arm64e.deb
+Size: 936334
+MD5sum: 1119b4d9aa214485c4c5a9c1189780f5
+SHA1: fda1be8d55d340e24224668a4e1a38033366f135
+SHA256: 8c7efa42f26d282aea334ce4cecb686aee5d24126248ddd6cfc9ea509586faee
+Section: Tweaks
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/appaze3
+Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
+Name: Appaze 3(roothide)
+
+Package: com.dao.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: ./debs/com.dao.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
+Size: 25034
+MD5sum: 3bb9d2f96c0c0ce4823424dd10d4793c
+SHA1: 88e8c045ea8f334c50a348b0cdf409fa41fbe558
+SHA256: f04d464c509126bde6fb8954229249962de5303f933d4617027eee9460791b24
+Section: Tweaks
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Author: Jonathan Winger-lang
+Name: BigShot 长截图(roothide)
+
+Package: com.lclrc.cccalc
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: gilesgc & paisseon & lclrc
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.lclrc.cccalc_2.1.0_iphoneos-arm64e.deb
+Size: 85158
+MD5sum: 9ea504e2e0fad2aa39da4f31dad2d81d
+SHA1: 1637fbe30ed319e22c86e158b2bbc9ba3fd4e701
+SHA256: 9261fb48389b095a6f47447a127ab05482dd5f9baeba2b695567288cee5945cb
+Description: 把控制中心的计算器变成真正的计算器，而不仅仅是复制上一个计算结果。
+Section: Tweaks
+Author: gilesgc & paisseon & lclrc
+Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
+Name: CCCalc(roothide)
+
+Package: com.lclrc.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64e.deb
+Size: 2767600
+MD5sum: 0a1f27f67bc0b0531262b3fb8249b479
+SHA1: 928c0dd50c770de657eecda9443baba3f06d228a
+SHA256: 58560b5452b9435e690f555137abb00403bc55029d1149621aa5e6e09dad11cd
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It(roothide)
+
+Package: com.mtac.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 2952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/com.mtac.lynxtwo_2.5.4_iphoneos-arm64e.deb
+Size: 1717060
+MD5sum: 2984053ac3756299241cfd55cb1d867a
+SHA1: c23bdccb7bad11b8883569cbb869425da3a564f8
+SHA256: 5d68b020d6b901772a4530417a1c36ae87bc18d9874b08b5eb439de8cbf3db4f
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2(roothide)
+
+Package: com.muirey03.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/com.muirey03.cr4shed_4.3.2_iphoneos-arm64e.deb
+Size: 641722
+MD5sum: 3c0bdf69960f349ca02b02f1d73f7e5a
+SHA1: 097db17c9bfd786907281c37820d01e304f903f4
+SHA256: 5de39310e54b405a899d1fa89b11c6be31a64ca479c42ed2e815653fbf3cb33b
+Section: Tweaks
+Description: 系统崩溃报告器
+Author: Muirey03
+Icon: https://www.susubaby.top/images/cr4shed.png
+Name: Cr4shed(roothide)
+
+Package: com.nathan.respringcc
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Nathan
+Installed-Size: 176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
+Filename: ./debs/com.nathan.respringcc_1.0_iphoneos-arm64e.deb
+Size: 7696
+MD5sum: 1d40a56117e8d3ff56807355aca8fb42
+SHA1: e4180fc348f8af303f28469590b46f92cab220ee
+SHA256: 08cff62c720a51333ea899e28d91c81dd2333188e31fbbd39ea2fefed1c073ef
+Section: Tweaks
+Description: CC toggle to respring
+Author: Nathan
+Name: RespringCC(roothide)
+
+Package: com.opa334.choicy
+Version: 1.5.2-2
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1122
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.opa334.choicy_1.5.2-2_iphoneos-arm64e.deb
+Size: 213204
+MD5sum: fd2f36b379c4cb18222d8e6862e0c6db
+SHA1: 8f52f00fdda8212078f2b19dec33c9778cff76fa
+SHA256: 5cdb095798c5c2003d4afc4480a8347695d53032229901788baaa4e5501e6cc3
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy(roothide)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.crane
+Version: 1.3.16-3
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3228
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.16-3_iphoneos-arm64e.deb
+Size: 1550728
+MD5sum: 155a26a4f4e4780606055f4bb63054bb
+SHA1: f0a7f21228f47c86c98f2021366f694dc4d6ffef
+SHA256: 5a4684c5cce7bb519d351577a4792ab361a8bee191cc9dea2b3b087215df960e
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane(roothide)
+
+Package: com.opa334.libsandy
+Version: 1.1.3-3-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 416
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.3-3-1+debug_iphoneos-arm64e.deb
+Size: 20950
+MD5sum: 08232087924064f25bb55cf652bb308e
+SHA1: 2ac0b33ba74db5ae9108b705c6329b66241179fb
+SHA256: 69f3dc5ab72ca278d24d65d54c73b583c03c81685dd6a651a94f0cacfed68b3f
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy(roothide)
+
+Package: com.pixelomer.shijima-ios
+Version: 1.2.4
+Architecture: iphoneos-arm64e
+Maintainer: pixelomer
+Installed-Size: 3656
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Recommends: libarchive13 (>= 3.7.2), com.opa334.altlist (>= 1.0.10)
+Filename: ./debs/com.pixelomer.shijima-ios_1.2.4_iphoneos-arm64e.deb
+Size: 2290166
+MD5sum: 1c272fab71bb9220bc93235acd46d599
+SHA1: c7bcaec51ace819706c7baf1c19a2edd771537d5
+SHA256: 97a0f1413eaed20b12eeabd320a91830e2bd33d31441bf9e5855ace8c9103257
+Section: Tweaks
+Description: A shimeji simulator for iOS
+Author: pixelomer
+Name: Shijima for iOS(roothide)
+
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/com.ps.letmeblock_1.3.0_iphoneos-arm64e.deb
+Size: 8522
+MD5sum: 5a028d6bfd473d712335facfd59c1769
+SHA1: 24f7fd13a75e3939fa45addb11e1a48e50822bb9
+SHA256: 1320f3f0317ffd642ade83619cee50776ada994bc1ce1119e7ba34f91aa598a1
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock(roothide)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: dev.theos.orion14
+Version: 1.0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Filename: ./debs/dev.theos.orion14_1.0.1-3+debug_iphoneos-arm64e.deb
+Size: 181106
+MD5sum: 86b1f3a313d1d4f4bbf9aa50ce99c274
+SHA1: 0fb7e6b04357773e9c9250c7156a5fdc1b96f4fd
+SHA256: a2de49957df5c5211ffb7e522ee9e95c020c123979ff4faeb43c70e7c6607400
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (roothide)
+
+Package: jp.dcsyhi.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12005
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64e.deb
+Size: 20979560
+MD5sum: 7ed99787ec4e5a554297e01ef710d9ce
+SHA1: ddc1912a5dc4d947b39dc8685c5ba3159f262600
+SHA256: 005571f5736cad907314cba57543a7b5e94f30c5d38e7ebd350d98f340b25c50
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu(roothide)
+
+Package: me.tomt000.stageduo
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: tomt000
+Installed-Size: 8316
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/me.tomt000.stageduo_1.1.1_iphoneos-arm64e.deb
+Size: 10727428
+MD5sum: 036cb6a919bcb5348f51c551ae91b862
+SHA1: 82848e00b42885a5feafcb1a74ddfc7c155f3d9c
+SHA256: 4fd181990c4d7d12145d5970dfb5c5783a239a40069fb51a81fe6801473b9483
+Section: Tweaks
+Description: Stage Manager Reimagined for iPhone
+Author: tomt000
+Name: Dynamic Stage(roothide)
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Hitori
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4_iphoneos-arm64e.deb
+Size: 307366
+MD5sum: 1112547b11a8b5b30697ef4232015ccc
+SHA1: e243616acb9784b56eb424a0ec3ccbb5986274bd
+SHA256: e4bf9520c39c9b306621737274730d68ac1463d71058de26ac6b06605c47e6ed
+Section: 应用
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://www.susubaby.top/images/CocoaTop.png
+Name: CocoaTop64(roothide)
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
+
+Package: wiki.qaq.chromatic.rootless
+Version: 3.0-rootless-release-1724937362.2952e67
+Architecture: iphoneos-arm64e
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/wiki.qaq.chromatic.rootless_3.0-rootless-release-1724937362.2952e67_iphoneos-arm64e.deb
+Size: 8664516
+MD5sum: 29f9dbb3f0a266dfe51d8327dff37188
+SHA1: 8dae1e5dddb95ff2fe6cb5ca9a73a5ce74bd3ff2
+SHA256: 7e7701f14663e40e6ec6d0bafda79f2a945d680d448860807b16608e60f0da98
+Section: 应用程序
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: 越狱商店saily。仅备份。
+Author: Saily Team <support.0xa1@qaq.wiki>
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: Saily(roothide)
+Website: https://sailyteam.github.io/Saily/index.html
+
