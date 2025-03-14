@@ -64,5 +64,5 @@ SHA256: d4ffc45f844bb63403e65ee537a8df95966a0b830ac3896cdffe26da1a05f8e3
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
-Name: floatingView()roothide
+Name: floatingView(roothide)
 
