@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: sunshinesong
 Installed-Size: 5468
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Filename: debs/svp140_iphoneos-arm64.deb
+Filename: ./debs/svp140_iphoneos-arm64.deb
 Size: 2295906
 MD5sum: 99996d4ff1d7983807f72abef4ef88d7
 SHA1: c73c6d3c0b3b84b6cdc5cda8d43d50696040273c
@@ -15,3 +15,20 @@ Author: sunshinesong
 Name: split-view-pro(rootless)
 Ts: sp-sss
 
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 5468
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/svp140_iphoneos-arm64e.deb
+Size: 4463550
+MD5sum: a885e7950fb66a1ae22c4a2133132bb9
+SHA1: af86bfb085aade2611859dfa3ebfdd7959f47a64
+SHA256: 78efdd5bc06ffd3bd5bb53bb73d1dc94c7c001071a8069b0e264ebb5bebb2348
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro(roothide)
+Ts: sp-sss
