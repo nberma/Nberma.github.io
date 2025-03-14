@@ -48,3 +48,20 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.be-huge.floating-view
+Version: 1.5.0-9
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2768
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.0-9_iphoneos-arm64e.deb
+Size: 1389146
+MD5sum: c7bd989b3ace03bd7bf30c8154355de3
+SHA1: df869214791bf49999987771f6f96b5e3acd82a1
+SHA256: 022b878e5ddb93a6954ee4e96b422668f02a0f7d001300c460a0568590de72d0
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
