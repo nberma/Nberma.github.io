@@ -32,3 +32,20 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro(roothide)
 Ts: sp-sss
+
+Package: com.be-huge.floating-view
+Version: 1.5.0-7
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2736
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.0-7_iphoneos-arm64.deb
+Size: 539086
+MD5sum: 98d7bf9cb3de304b13859b04d65b42b3
+SHA1: 77e57562a4a290363857c36aa8f01a83245fdcc4
+SHA256: 3732e8ece3a384a34350bbe0a31bcb34e1566dd5e64c861355227571ac20fdf7
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView(rootless)
+
