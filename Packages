@@ -34,33 +34,16 @@ Name: split-view-pro
 Ts: sp-sss
 
 Package: com.be-huge.floating-view
-Version: 1.5.0-9
+Version: 1.5.0-10
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 2768
+Installed-Size: 2736
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.0-9_iphoneos-arm64.deb
-Size: 542152
-MD5sum: 74dc2ec10e19636210f9565e8be2d0f9
-SHA1: a05f98b28a616af8f45c36b65c55831afd673ea3
-SHA256: 4638e36f8e4f1ff87b0893409c0d05a5b86355668a1964bdb30ffd80769b6b74
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
-Package: com.be-huge.floating-view
-Version: 1.5.0-9
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 2768
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.0-9_iphoneos-arm64e.deb
-Size: 1389146
-MD5sum: c7bd989b3ace03bd7bf30c8154355de3
-SHA1: df869214791bf49999987771f6f96b5e3acd82a1
-SHA256: 022b878e5ddb93a6954ee4e96b422668f02a0f7d001300c460a0568590de72d0
+Filename: ./debs/fv1.5.0-10_iphoneos-arm64.deb
+Size: 540228
+MD5sum: 350cda2bfe48bfaf2311dc03c848cb31
+SHA1: 35779b4191fc9eced2c763f9a690f961e35a5de0
+SHA256: 139e5e14af2b19e80794cb9f90606824cdd3df409f2f7062caee2867c26166dd
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
