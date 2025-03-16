@@ -34,16 +34,16 @@ Name: split-view-pro
 Ts: sp-sss
 
 Package: com.be-huge.floating-view
-Version: 1.5.1
+Version: 1.5.1-1
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 2780
+Installed-Size: 2732
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.1_iphoneos-arm64.deb
-Size: 543914
-MD5sum: 3ca95fb1eb57c1125254d37a876b692b
-SHA1: b4137947fceb38aa8a452347bb322338f71d5809
-SHA256: dadb21140fa98d1717c65f13ebd4bd667aa1266b819cdf3f1d11947505fbcf58
+Filename: ./debs/fv1.5.1-1_iphoneos-arm64.deb
+Size: 541164
+MD5sum: 927d5745eabb9a163e03edec7abeeb76
+SHA1: 3fc1847cf2d1f8e349ba7ffead27d493703b2d6f
+SHA256: a868ca6136b8a1fdd683ffc392ab311d3c20962ed78fb08573b87e46944a4200
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
