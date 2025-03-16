@@ -35,7 +35,7 @@ Ts: sp-sss
 
 Package: com.be-huge.floating-view
 Version: 1.5.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 2780
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
