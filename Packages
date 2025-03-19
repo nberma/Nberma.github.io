@@ -39,7 +39,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 2800
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/FV_1.5.2-2_iphoneos-arm64.deb
+Filename: ./debs/fv1.5.2-2_iphoneos-arm64.deb
 Size: 554288
 MD5sum: d588bcca46c196f05a72114001f50ccf
 SHA1: 9a76d824ae7e7da2c973ac2cc554e477851cad33
