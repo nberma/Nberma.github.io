@@ -48,3 +48,19 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64.deb
+Size: 22994
+MD5sum: f0b1605b488c3c3564da480d5474a05c
+SHA1: baa2f741a68f96992701e7bc9ae5f3f5075de51d
+SHA256: dd9a26a738a01c12ca5a62ea60c5f5b83254e2ea7632255cfc1746655cf5c5a2
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: WechatPushMsgPage-rootless
