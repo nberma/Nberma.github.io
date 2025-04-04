@@ -12,7 +12,7 @@ SHA256: 152bb8f1686696ff25fc6e5fd18fd46789918272e0c1ee7ad75c5461a58b2b4e
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro(Rootless)
+Name: split-view-pro
 Ts: sp-sss
 
 Package: com.sunshinesong.split-view-pro
@@ -30,7 +30,7 @@ SHA256: 78efdd5bc06ffd3bd5bb53bb73d1dc94c7c001071a8069b0e264ebb5bebb2348
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro(Roothide)
+Name: split-view-pro
 Ts: sp-sss
 
 Package: com.be-huge.wechat-push-msg-page
@@ -47,4 +47,103 @@ SHA256: dd9a26a738a01c12ca5a62ea60c5f5b83254e2ea7632255cfc1746655cf5c5a2
 Section: Tweaks
 Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
 Author: be-huge
-Name: WechatPushMsgPage-rootless(Rootless)
+Name: WechatPushMsgPage-rootless
+
+Package: com.be-huge.floating-view
+Version: 1.5.2-2
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2800
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.2-2_iphoneos-arm64.deb
+Size: 554288
+MD5sum: d588bcca46c196f05a72114001f50ccf
+SHA1: 9a76d824ae7e7da2c973ac2cc554e477851cad33
+SHA256: 483a14dc480c7103a7d51aabc1cdc0558f71ae10c28a67a3b51bb63935eb313e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。(镜像arc版)
+Author: be-huge
+Name: floatingView(1.5.2-2)
+
+Package: com.be-huge.floating-view
+Version: 1.5.2-2
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2800
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.2-2_iphoneos-arm64e.deb
+Size: 1419514
+MD5sum: 8dc89bb44210315338a79f44bf25637b
+SHA1: cbf7a12856af63c47490f9079a8e3aba1b174a30
+SHA256: a7ebda8cfc5b4ff6124ef9d953e69c10dc206c97f93192253398dd382b30496e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。(镜像arc版)
+Author: be-huge
+Name: floatingView(1.5.2-2)
+
+Package: com.be-huge.floating-view
+Version: 1.5.2-6
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2884
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.2-6_iphoneos-arm64.deb
+Size: 575640
+MD5sum: e67c237408ee833b464496eedc35114a
+SHA1: cdae30ab72c052f904a3360d409026d79e38dcbc
+SHA256: 12750d7ffaa9e54cf5bdd52938a96a531f841272b12cf20b97de9e64478fb0db
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。(图钉最终版本)
+Author: be-huge
+Name: floatingView(1.5.2-6)
+
+Package: com.be-huge.floating-view
+Version: 1.5.2-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2884
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.2-6_iphoneos-arm64e.deb
+Size: 1481690
+MD5sum: 1cc192f89a6183e218d79a61cbfe3b83
+SHA1: 7edf513808e7381b8838dc3cdcf178c085cd8f9b
+SHA256: dca8a7b96355f767e15dd5b4408ba9074c0f0e9f2256f47914047e3421d486b0
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。(图钉最终版本)
+Author: be-huge
+Name: floatingView(1.5.2-6)
+
+Package: com.be-huge.floating-view
+Version: 1.5.3
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3024
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.3_iphoneos-arm64.deb
+Size: 549410
+MD5sum: 330b82325d28c5840e07f6f21ac41b3c
+SHA1: 177fdd12fb3930221a292c3066488bc3b9def40f
+SHA256: bc26c4558205b5ef4ef2984b56da2f4e7fd34dae83a356f80f750f907afec78d
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.be-huge.floating-view
+Version: 1.5.3
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/fv1.5.3_iphoneos-arm64e.deb
+Size: 1463128
+MD5sum: dc83df6b196ea21d34efea879576d124
+SHA1: 40b436ff9181e16f0798fa7c034ce47ab9c9149e
+SHA256: e70b54272c926ac3bf87966897ab05db30a2730cf78e1da19c78f77f0528c871
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
