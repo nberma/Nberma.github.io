@@ -12,7 +12,7 @@ SHA256: 152bb8f1686696ff25fc6e5fd18fd46789918272e0c1ee7ad75c5461a58b2b4e
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro
+Name: split-view-pro(Rootless)
 Ts: sp-sss
 
 Package: com.sunshinesong.split-view-pro
@@ -30,7 +30,7 @@ SHA256: 78efdd5bc06ffd3bd5bb53bb73d1dc94c7c001071a8069b0e264ebb5bebb2348
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
-Name: split-view-pro
+Name: split-view-pro(Roothide)
 Ts: sp-sss
 
 Package: com.be-huge.wechat-push-msg-page
@@ -47,7 +47,7 @@ SHA256: dd9a26a738a01c12ca5a62ea60c5f5b83254e2ea7632255cfc1746655cf5c5a2
 Section: Tweaks
 Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
 Author: be-huge
-Name: WechatPushMsgPage-rootless
+Name: WechatPushMsgPage-rootless(Rootless)
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.1
@@ -64,24 +64,20 @@ SHA256: cc61a3930f9639373bb04863c18b337d8048767b52e60114c50f71b9d29d515b
 Section: Tweaks
 Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
 Author: be-huge
-Name: WechatPushMsgPage-rootless
+Name: WechatPushMsgPage-rootless(Roothide)
 
 Package: com.be-huge.floating-view
-Version: 1.5.3-6
+Version: 1.5.3-7
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 3076
+Installed-Size: 3064
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.3-6_iphoneos-arm64.deb
-Size: 556936
-MD5sum: 132a011897ca8ba921b1667caf8af321
-SHA1: f7487b0953fa3913c2ef36e76106e51a90d475a0
-SHA256: 665e3c29949c6ba7c48e8fb99e1941ff12654e6a00a1e932028a966282c37341
+Filename: ./debs/fv1.5.3-7_iphoneos-arm64.deb
+Size: 554388
+MD5sum: eb58890d1ea4488064afbd5266c87f34
+SHA1: 694ba575245b77cbf394f0fe3aeaeb72d4fc7458
+SHA256: 45d1879dfbb63ece94ffa811fb312f60087f9491f58fca0d052dbbb5d941ad44
 Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
