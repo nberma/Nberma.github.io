@@ -67,16 +67,16 @@ Author: be-huge
 Name: WechatPushMsgPage-rootless(Roothide)
 
 Package: com.be-huge.floating-view
-Version: 1.5.3-8
+Version: 1.5.3-9
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 3080
+Installed-Size: 3064
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.3-8_iphoneos-arm64.deb
-Size: 559376
-MD5sum: 9c74aaec7e75e8b7ff92c2b809dbdb0c
-SHA1: 508cdbdc307b88a8e9f08027ddf284470634f8e3
-SHA256: 65f57afe32248b6642196bddf1ec00e88be87f1513e3d440528c972f1ceb92cd
+Filename: ./debs/fv1.5.3-9_iphoneos-arm64.deb
+Size: 556462
+MD5sum: 743fd29a9b321bdfbf025ad317472a83
+SHA1: 2712aa3998ea8de308941caa9aeaa96d037a9735
+SHA256: 9b32ca5c9d6d1a09bd0c7edafa173e3165a899e1284299cafba85ecaea05a404
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
