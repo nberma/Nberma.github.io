@@ -65,6 +65,23 @@ Description: 微信插件，弥补点击微信通知无法跳转到聊天界面�
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Rootless)
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64e.deb
+Size: 30400
+MD5sum: aed224d1ade0b4b30b809e36d16a1ea2
+SHA1: e75d47656262a03927c9bd49fb278dc02734fe0d
+SHA256: 3185654278a0e7ae88c6987a23024922f9bc116fe50ad8d2bbfe6c38cfd71f2b
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: WechatPushMsgPage-rootless(Roothide)
+
 Package: com.muirey03.cr4shed
 Version: 4.3.2
 Architecture: iphoneos-arm64
@@ -81,6 +98,24 @@ Description: 系统崩溃报告器
 Author: Muirey03
 Icon: https://www.susubaby.top/images/cr4shed.png
 Name: Cr4shed(Rootless)
+
+Package: com.muirey03.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/com.muirey03.cr4shed_4.3.2_iphoneos-arm64e.deb
+Size: 641746
+MD5sum: 4ef5a90a2e29607510bfcdffe73f3e03
+SHA1: b10620063d5801f3d48a8e1195536782ab575c8f
+SHA256: a6029a0f03b5e1e3ede8a38c7ccb84f1f38fc4965338a394798a2160b4ed0fe0
+Section: Tweaks
+Description: 系统崩溃报告器
+Author: Muirey03
+Icon: https://www.susubaby.top/images/cr4shed.png
+Name: Cr4shed(Roothide)
 
 Package: dev.traurige.eneko
 Version: 1.4
@@ -99,6 +134,24 @@ Description: Live wallpapers for iOS
 Author: Traurige <hello@traurige.dev>
 Name: Eneko(Rootless)
 
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/dev.traurige.eneko_1.4_iphoneos-arm64e.deb
+Size: 38648
+MD5sum: b2f01fb59c0c8f01d9c29bed3939efb1
+SHA1: 7c29121f7fe24d0b7033d908b9639037b4ec4b11
+SHA256: b4433489fff950cc5af81c75d2c58e2dca4dc49171eba7f7a68738e1bd84019e
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Name: Eneko(Roothide)
+
 Package: ru.domo.cocoatop64
 Version: 2.2.4
 Architecture: iphoneos-arm64
@@ -115,6 +168,25 @@ Description: Process Viewer for iOS
 Author: Domo <domo@rambler.ru>
 Icon: https://www.susubaby.top/images/CocoaTop.png
 Name: CocoaTop64(Rootless)
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Hitori
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4_iphoneos-arm64e.deb
+Size: 307378
+MD5sum: 117ea89a11f63f2023eee0ffb742546c
+SHA1: 94e142a34886bed67cbf7c449139d11a11c128a7
+SHA256: 20e29ebd86919305d639767f5f3d127a513b2121a4805b73a8e08d32542916c3
+Section: Tweaks
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://www.susubaby.top/images/CocoaTop.png
+Name: CocoaTop64(Roothide)
 Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 
 Package: xyz.cypwn.systemmemoryresetfix
@@ -136,3 +208,22 @@ Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
 Name: System Memory Reset Fix(Rootless)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
 
+Package: xyz.cypwn.systemmemoryresetfix
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/xyz.cypwn.systemmemoryresetfix_2.0_iphoneos-arm64e.deb
+Size: 4024
+MD5sum: 3175e10ad32f56442a4c53548e983f74
+SHA1: 81b3200c7c72ca795380b8149fd5242cbf9b8035
+SHA256: 924856cf4d8340e8720b707c724256985a146a6c0e2c9d7f4b5767af6f9fa6c5
+Section: Tweaks
+Description: Prevent overnight userspace reboots triggered by maintenanced daemon when iCloud backup occurs. This is a must have for users with nightly reboots.
+Author: Pwn20wnd
+Depiction: https://repo.cypwn.xyz/depiction/2642
+Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
+Name: System Memory Reset Fix(Roothide)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
