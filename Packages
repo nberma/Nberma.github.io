@@ -65,23 +65,6 @@ Description: 微信插件，弥补点击微信通知无法跳转到聊天界面�
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Rootless)
 
-Package: com.be-huge.wechat-push-msg-page
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 232
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64e-2.deb
-Size: 30398
-MD5sum: 4231e194463468040e2c335b4f7d3151
-SHA1: 5312904999c22e304c0de31a5f37b798af34de2f
-SHA256: cc61a3930f9639373bb04863c18b337d8048767b52e60114c50f71b9d29d515b
-Section: Tweaks
-Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
-Author: be-huge
-Name: WechatPushMsgPage-rootless(Roothide)
-
 Package: com.muirey03.cr4shed
 Version: 4.3.2
 Architecture: iphoneos-arm64
