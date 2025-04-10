@@ -81,3 +81,75 @@ Section: Tweaks
 Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Roothide)
+
+Package: com.muirey03.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64
+Maintainer: Muirey03
+Installed-Size: 2488
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/com.muirey03.cr4shed_4.3.2_iphoneos-arm64.deb
+Size: 228780
+MD5sum: 30cff024e7e1abc9b424aa7c5f4d4209
+SHA1: 9014f4ee066a9d64238f39a796221f7e9eefb445
+SHA256: 32915f874a32cba8941a9da78f1dc184d106ee255d9a05055effc3bf92b5bcfe
+Section: Tweaks
+Description: 系统崩溃报告器
+Author: Muirey03
+Icon: https://www.susubaby.top/images/cr4shed.png
+Name: Cr4shed(Rootless)
+
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/dev.traurige.eneko_1.4_iphoneos-arm64.deb
+Size: 29412
+MD5sum: 5f8443d3c14f4aae25ca21afcfbbd111
+SHA1: d6058f80495ba85ed95dbe2fdd16b157cd9a0cdc
+SHA256: 4de3760346d7c2baed4f200f38c60e1d2ae735406ec62b27ed3f45f9831f1eb1
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Name: Eneko(Rootless)
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4_iphoneos-arm64.deb
+Size: 233692
+MD5sum: 99ba4b51409b28ea5c1e503b7f56412d
+SHA1: e8361ac1642b7b31b26da8ec5b9e6ac1bc5a2afb
+SHA256: 27303534ce790f1e417dfd1c5951b413f656e90a2aaa5eecfe4763c4773d8ad8
+Section: Tweaks
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://www.susubaby.top/images/CocoaTop.png
+Name: CocoaTop64(Rootless)
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
+
+Package: xyz.cypwn.systemmemoryresetfix
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/xyz.cypwn.systemmemoryresetfix_2.0_iphoneos-arm64.deb
+Size: 4044
+MD5sum: 5fd23bb620bebaa4c221c88988f7db38
+SHA1: d0d8afbc3281d4c01bb494fbd313e534fe4d9c05
+SHA256: 55e20cef0c59a95e170fd1aef742cc1f3d9b44082448196e981955de2364d515
+Section: Tweaks
+Description: 防止在iCloud备份期间由维护守护进程(maintenanced daemon)触发的夜间用户空间重启。
+Author: Pwn20wnd
+Depiction: https://repo.cypwn.xyz/depiction/2642
+Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
+Name: System Memory Reset Fix(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
+
