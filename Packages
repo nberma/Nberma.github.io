@@ -240,9 +240,26 @@ MD5sum: c253ba7b1eba23d2260ed2fa954cfb1b
 SHA1: af1fb4e8f0c6f6ad08ad7899f58f7fb192f3e693
 SHA256: f7c39aea2483e9cebea0681c6f6a63a834df8f89366432ff3a3b859c9c7f6813
 Section: Tweaks
-Description: 小横幅通知，可自定义颜色等，汉化包源内安装。
+Description: 小横幅通知，可自定义颜色等。
 Author: Traurige <hello@traurige.dev>
 Name: Liddell小横幅(Rootless)
+
+Package: com.hk.rootless.liddell
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Filename: ./debs/com.hk.rootless.liddell_1.4.3_iphoneos-arm64e-1.deb
+Size: 124418
+MD5sum: f31faa2339da2696cc268ce21004938d
+SHA1: 59d6142b8857b00250542bfa742f65aae566ce85
+SHA256: cef130b73f46cead009295493028e60ab4c05a5ccac2725aaec547abbc2c4a43
+Section: Tweaks
+Description: 小横幅通知，可自定义颜色等。
+Author: Traurige <hello@traurige.dev>
+Name: Liddell小横幅(Roothide)
 
 Package: com.nathan.internalstoragesettings
 Version: 1.0
@@ -258,6 +275,22 @@ Section: Tweaks
 Description: Tweak to enable the hidden storage settings
 Author: Nathan Senter
 Name: InternalStorageSettings(Rootless)
+
+Package: com.nathan.internalstoragesettings
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Nathan Senter
+Installed-Size: 136
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.nathan.internalstoragesettings_1.0_iphoneos-arm64e-1.deb
+Size: 5374
+MD5sum: 4f3e896ed7b09325d5f6ba02728e5c03
+SHA1: db333e16e256efa7023b8025a76c106db2a9ff5d
+SHA256: 8e940ff470a98f5dae5a617ee02fb42fa10f3783e0064690f19ff460b75d0d71
+Section: Tweaks
+Description: Tweak to enable the hidden storage settings
+Author: Nathan Senter
+Name: InternalStorageSettings(Roothide)
 
 Package: dev.traurige.libkitten
 Version: 1.4.1
@@ -276,6 +309,24 @@ Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
 Author: Traurige <hello@traurige.dev>
 Name: libKitten(Rootless)
 
+Package: dev.traurige.libkitten
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Provides: love.litten.libkitten (=1.3.3)
+Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64e-1.deb
+Size: 10174
+MD5sum: f52ee841690a54e7638a6cc733cf534a
+SHA1: 6bb377a01d25dbc9ec9c8184eca81b04e14ed622
+SHA256: 703bdf0bccc1b18506b648959fda4a712e53d92a8070389d8e6f903c319129c5
+Section:依赖
+Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
+Author: Traurige <hello@traurige.dev>
+Name: libKitten(Roothide)
+
 Package: xyz.cypwn.networkmanager
 Version: 1.4.3
 Architecture: iphoneos-arm64
@@ -292,4 +343,23 @@ Author: NoisyFlake, Nixuge
 Depiction: https://repo.cypwn.xyz/depiction/2337
 Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
 Name: NetworkManagerReborn(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
+
+Package: xyz.cypwn.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64e-1.deb
+Size: 46000
+MD5sum: 972c3d3140a7bae2ba23583a62af3031
+SHA1: 9a6c230157073f3b852217bff885718d64ce0501
+SHA256: 1508246ddf2f6de1cbd84f721796cbbd81be6427022f15f9d486a9bf64a25e0a
+Section:Tweaks
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Depiction: https://repo.cypwn.xyz/depiction/2337
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Name: NetworkManagerReborn(Roothide)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
