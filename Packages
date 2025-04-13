@@ -227,3 +227,69 @@ Depiction: https://repo.cypwn.xyz/depiction/2642
 Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
 Name: System Memory Reset Fix(Roothide)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
+
+Package: com.hk.rootless.liddell
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Filename: ./debs/com.hk.rootless.liddell_1.4.3_iphoneos-arm64.deb
+Size: 92372
+MD5sum: c253ba7b1eba23d2260ed2fa954cfb1b
+SHA1: af1fb4e8f0c6f6ad08ad7899f58f7fb192f3e693
+SHA256: f7c39aea2483e9cebea0681c6f6a63a834df8f89366432ff3a3b859c9c7f6813
+Section: Tweaks
+Description: 小横幅通知，可自定义颜色等，汉化包源内安装。
+Author: Traurige <hello@traurige.dev>
+Name: Liddell小横幅(Rootless)
+
+Package: com.nathan.internalstoragesettings
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Nathan Senter
+Installed-Size: 136
+Filename: ./debs/com.nathan.internalstoragesettings_1.0_iphoneos-arm64.deb
+Size: 3860
+MD5sum: a8d5cabab357fd08bec861648ec9dbeb
+SHA1: ec724279da07746d3a788254ae281db6e41c9ec3
+SHA256: e592d1cfc5670fe90f86221722ed62ff60a5a24bd7e29b4c532062d1b5aac66c
+Section: Tweaks
+Description: Tweak to enable the hidden storage settings
+Author: Nathan Senter
+Name: InternalStorageSettings(Rootless)
+
+Package: dev.traurige.libkitten
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Provides: love.litten.libkitten (=1.3.3)
+Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64.deb
+Size: 7800
+MD5sum: 7e5760d2632f61216cfa3c12443a2d2f
+SHA1: da3dd354e66914953360b42725d81b91ffada2d7
+SHA256: 1c45fe02d2ff399c4284a51764ac3de476d9affc27aa953a90f51363a99f77a5
+Section: 依赖
+Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
+Author: Traurige <hello@traurige.dev>
+Name: libKitten(Rootless)
+
+Package: xyz.cypwn.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64.deb
+Size: 61788
+MD5sum: d643c068401c30a04d459ed966081197
+SHA1: 8141fa10258f96c631a9e3eead8b36f2750df917
+SHA256: 2b256a19e11c1a9e15decde5a6e7ffff85ea3c1fef708ef7a45bd23d7805d516
+Section: Tweaks
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Depiction: https://repo.cypwn.xyz/depiction/2337
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Name: NetworkManagerReborn(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
