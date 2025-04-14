@@ -96,7 +96,6 @@ SHA256: 32915f874a32cba8941a9da78f1dc184d106ee255d9a05055effc3bf92b5bcfe
 Section: Tweaks
 Description: 系统崩溃报告器
 Author: Muirey03
-Icon: https://www.susubaby.top/images/cr4shed.png
 Name: Cr4shed(Rootless)
 
 Package: com.muirey03.cr4shed
@@ -114,7 +113,6 @@ SHA256: a6029a0f03b5e1e3ede8a38c7ccb84f1f38fc4965338a394798a2160b4ed0fe0
 Section: Tweaks
 Description: 系统崩溃报告器
 Author: Muirey03
-Icon: https://www.susubaby.top/images/cr4shed.png
 Name: Cr4shed(Roothide)
 
 Package: dev.traurige.eneko
@@ -166,9 +164,7 @@ SHA256: 27303534ce790f1e417dfd1c5951b413f656e90a2aaa5eecfe4763c4773d8ad8
 Section: Tweaks
 Description: Process Viewer for iOS
 Author: Domo <domo@rambler.ru>
-Icon: https://www.susubaby.top/images/CocoaTop.png
 Name: CocoaTop64(Rootless)
-Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
@@ -187,7 +183,6 @@ Description: Process Viewer for iOS
 Author: Domo <domo@rambler.ru>
 Icon: https://www.susubaby.top/images/CocoaTop.png
 Name: CocoaTop64(Roothide)
-Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 
 Package: xyz.cypwn.systemmemoryresetfix
 Version: 2.0
@@ -203,10 +198,7 @@ SHA256: 55e20cef0c59a95e170fd1aef742cc1f3d9b44082448196e981955de2364d515
 Section: Tweaks
 Description: 防止在iCloud备份期间由维护守护进程(maintenanced daemon)触发的夜间用户空间重启。
 Author: Pwn20wnd
-Depiction: https://repo.cypwn.xyz/depiction/2642
-Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
 Name: System Memory Reset Fix(Rootless)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
 
 Package: xyz.cypwn.systemmemoryresetfix
 Version: 2.0
@@ -223,10 +215,7 @@ SHA256: 924856cf4d8340e8720b707c724256985a146a6c0e2c9d7f4b5767af6f9fa6c5
 Section: Tweaks
 Description: Prevent overnight userspace reboots triggered by maintenanced daemon when iCloud backup occurs. This is a must have for users with nightly reboots.
 Author: Pwn20wnd
-Depiction: https://repo.cypwn.xyz/depiction/2642
-Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
 Name: System Memory Reset Fix(Roothide)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
 
 Package: com.hk.rootless.liddell
 Version: 1.4.3
@@ -340,10 +329,7 @@ SHA256: 2b256a19e11c1a9e15decde5a6e7ffff85ea3c1fef708ef7a45bd23d7805d516
 Section: Tweaks
 Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
-Depiction: https://repo.cypwn.xyz/depiction/2337
-Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
 Name: NetworkManagerReborn(Rootless)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
 
 Package: xyz.cypwn.networkmanager
 Version: 1.4.3
@@ -359,7 +345,4 @@ SHA256: 1508246ddf2f6de1cbd84f721796cbbd81be6427022f15f9d486a9bf64a25e0a
 Section:Tweaks
 Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
-Depiction: https://repo.cypwn.xyz/depiction/2337
-Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
 Name: NetworkManagerReborn(Roothide)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
