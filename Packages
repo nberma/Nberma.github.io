@@ -181,7 +181,6 @@ SHA256: 20e29ebd86919305d639767f5f3d127a513b2121a4805b73a8e08d32542916c3
 Section: Tweaks
 Description: Process Viewer for iOS
 Author: Domo <domo@rambler.ru>
-Icon: https://www.susubaby.top/images/CocoaTop.png
 Name: CocoaTop64(Roothide)
 
 Package: xyz.cypwn.systemmemoryresetfix
