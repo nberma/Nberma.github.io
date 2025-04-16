@@ -50,35 +50,35 @@ Name: split-view-pro(Roothide)
 Ts: sp-sss
 
 Package: com.be-huge.wechat-push-msg-page
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 232
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64.deb
-Size: 22994
-MD5sum: f0b1605b488c3c3564da480d5474a05c
-SHA1: baa2f741a68f96992701e7bc9ae5f3f5075de51d
-SHA256: dd9a26a738a01c12ca5a62ea60c5f5b83254e2ea7632255cfc1746655cf5c5a2
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.3_iphoneos-arm64.deb
+Size: 23172
+MD5sum: 505059a1579f1d47007c1d7ea8511f47
+SHA1: f00880fbfbebc9e4514199787004ac955c295c0b
+SHA256: 57c61e400766da00cb730d3f1408dc2b1530515a0ec7ec902e92c3e8b298d637
 Section: Tweaks
-Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Rootless)
 
 Package: com.be-huge.wechat-push-msg-page
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 232
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64e.deb
-Size: 30400
-MD5sum: aed224d1ade0b4b30b809e36d16a1ea2
-SHA1: e75d47656262a03927c9bd49fb278dc02734fe0d
-SHA256: 3185654278a0e7ae88c6987a23024922f9bc116fe50ad8d2bbfe6c38cfd71f2b
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.3_iphoneos-arm64e.deb
+Size: 30662
+MD5sum: ad40c2fa77b727d202ce0f5511687a62
+SHA1: 74c79bc14870c878e2a046df32bb07249622b4b0
+SHA256: 2000156449d4f8dbf5b24012e56ec003223b48bd139e7ce66e934aa51e9ef97c
 Section: Tweaks
-Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Roothide)
 
