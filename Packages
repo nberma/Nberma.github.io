@@ -82,6 +82,39 @@ Description: 弥补微信通知不足，支持点击微信消息通知横幅，�
 Author: be-huge
 Name: WechatPushMsgPage-rootless(Roothide)
 
+Package: com.be-huge.wechat-pop-vc
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-pop-vc_0.0.1_iphoneos-arm64.deb
+Size: 20478
+MD5sum: 1361ba12882fe567b68e607b5990e237
+SHA1: 16cc6b9d12e99db1664cce5d7073c0a2526a7f0b
+SHA256: 63cc6ebb84e17a7ed11d731275dd86a6077f67aaedd89d4552811f49af6e0d8c
+Section: Tweaks
+Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
+Author: be-huge
+Name: WeChatPopVC(Rootless)
+
+Package: com.be-huge.wechat-pop-vc
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-pop-vc_0.0.1_iphoneos-arm64e.deb
+Size: 27020
+MD5sum: eca18dc43cda50ab71643ba069d4ea9c
+SHA1: 43129ab9b4b41be9d4708315224c0cf85615298f
+SHA256: f9dea0c44dfa969ec85f76ba4bfcbb8baee73619a18247a66618c4bbd7752ef8
+Section: Tweaks
+Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
+Author: be-huge
+Name: WeChatPopVC(Roothide)
+
 Package: com.muirey03.cr4shed
 Version: 4.3.2
 Architecture: iphoneos-arm64
