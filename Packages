@@ -272,7 +272,7 @@ Maintainer: Traurige <hello@traurige.dev>
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
 Conflicts: love.litten.liddell, dev.traurige.liddell
-Filename: ./debs/com.hk.rootless.liddell_1.4.3_iphoneos-arm64e-1.deb
+Filename: ./debs/com.hk.rootless.liddell_1.4.3_iphoneos-arm64e.deb
 Size: 124418
 MD5sum: f31faa2339da2696cc268ce21004938d
 SHA1: 59d6142b8857b00250542bfa742f65aae566ce85
@@ -303,7 +303,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Nathan Senter
 Installed-Size: 136
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.nathan.internalstoragesettings_1.0_iphoneos-arm64e-1.deb
+Filename: ./debs/com.nathan.internalstoragesettings_1.0_iphoneos-arm64e.deb
 Size: 5374
 MD5sum: 4f3e896ed7b09325d5f6ba02728e5c03
 SHA1: db333e16e256efa7023b8025a76c106db2a9ff5d
@@ -338,12 +338,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 12.0)
 Conflicts: love.litten.libkitten
 Provides: love.litten.libkitten (=1.3.3)
-Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64e-1.deb
+Filename: ./debs/dev.traurige.libkitten_1.4.1_iphoneos-arm64e.deb
 Size: 10174
 MD5sum: f52ee841690a54e7638a6cc733cf534a
 SHA1: 6bb377a01d25dbc9ec9c8184eca81b04e14ed622
 SHA256: 703bdf0bccc1b18506b648959fda4a712e53d92a8070389d8e6f903c319129c5
-Section:依赖
+Section: 依赖
 Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
 Author: Traurige <hello@traurige.dev>
 Name: libKitten(Roothide)
@@ -369,7 +369,7 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64e-1.deb
+Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64e.deb
 Size: 46000
 MD5sum: 972c3d3140a7bae2ba23583a62af3031
 SHA1: 9a6c230157073f3b852217bff885718d64ce0501
