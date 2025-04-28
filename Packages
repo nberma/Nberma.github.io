@@ -508,10 +508,9 @@ MD5sum: b41babea6af14166166ac70da0d472bb
 SHA1: d7703febee3eaea3b1319d18cff7c7d59a9af2ab
 SHA256: 67338fa3f52951d5cbb900e8582e15dfff5964104bf627643bfe3901cda69652
 Section: 依赖
-Description: Support library for tweaks
+Description: Support library for tweaks.  zetsu等插件的依赖
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
-Depiction: zetsu等插件的依赖
 Name: Cephei Tweak Support(Rootless)
 
 Package: ws.hbang.common
@@ -526,8 +525,7 @@ MD5sum: 8f10a20e69b6196d558680c6de959a10
 SHA1: 70a6fe7f4ad528248fc1f137edf8c14d23e54082
 SHA256: fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b
 Section: 依赖
-Description: Support library for tweaks
+Description: Support library for tweaks.  zetsu等插件的依赖
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
-Depiction: zetsu等插件的依赖
 Name: Cephei Tweak Support(Roothide)
