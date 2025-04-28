@@ -426,3 +426,20 @@ Section: Tweaks
 Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
 Author: Snail <mu514983786@gmail.com>
 Name: 蜗牛自适应+锁定120 Always120(Roothide)
+
+Package: jp.dcsyhi.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12005
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64.deb
+Size: 10168604
+MD5sum: a6e68bfc9cdc664ca9a494a02b2572fd
+SHA1: 786e121b2395630ce3ed23e51e93370ed820b644
+SHA256: f2cac8022db8a5667d4c1fb5dccae1f8ded90fb1cf18255153b669fe3faf2232
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Zetsu(Rootless)
