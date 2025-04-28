@@ -443,3 +443,21 @@ Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 Name: Zetsu(Rootless)
+
+Package: jp.dcsyhi.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12005
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64e.deb
+Size: 20979562
+MD5sum: 8d5aa9312307137eb779d0147c44a79b
+SHA1: e5dec5de3e431bfb99001b1cef3b1d11639b5479
+SHA256: 675b9d4a7de1ea21ca64bb729997d635948c8d55b61ca24a486cd706625edd03
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Zetsu(Roothide)
