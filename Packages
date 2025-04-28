@@ -474,8 +474,8 @@ Size: 340272
 MD5sum: 1b571509cd0c0964eee597e36e14672a
 SHA1: ada5385ba6b3779925aae8aec10f8618fb4a9676
 SHA256: 4f6156fb43d34f5a305ae5347c6fa6feddf4eb05d7b19fdb71fd829692cbccfd
-Section: Tweak Injection
-Priority: 依赖
+Section:依赖
+Priority: optional
 Description: ElleKit tweak injection libraries and loader
 Author: Evelyn
 Name: ElleKit(Roothide)
