@@ -491,7 +491,7 @@ Size: 17538
 MD5sum: 833bb8b591a71c0ea961c4169b96c67c
 SHA1: 8a57d591920048d0114a1f8f3a87674124c41a91
 SHA256: e700e6363ce2775298b976dad6a264487f4cd74631ef57ef999245b4f75c2c85
-Section: System
+Section:依赖
 Description: load preferences in style(2.2.7版本)
 Tag: role::hacker, purpose::library
 Author: Dhinak G <dhinak@dhinak.net>
@@ -509,7 +509,7 @@ Size: 27818
 MD5sum: a2e0ba8d486df80c3deebee923f9081e
 SHA1: d232922d88a46ee8bf70af7fb7d036a4736ebd5b
 SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
-Section: System
+Section:依赖
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader(Roothide)
