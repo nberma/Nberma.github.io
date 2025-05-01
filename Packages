@@ -545,3 +545,20 @@ Section: Tweaks
 Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
 Author: sunshinesong
 Name: VolumeManager(Rootless)
+
+Package: com.sunshinesong.volume-manager
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 1104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.volume-manager_1.0.3_iphoneos-arm64e.deb
+Size: 183612
+MD5sum: 0742518cb0eb93f3e0252874fa3eae4f
+SHA1: e9a197e8e0f8826da536e3fccef55b118be4b4f2
+SHA256: 8d1bbefb0090086bb9e8a76c6d1df5d981fe4e1a75a8a4c3b995055bf96c697f
+Section: Tweaks
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
+Author: sunshinesong
+Name: VolumeManager(Roothide)
