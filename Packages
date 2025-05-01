@@ -529,3 +529,19 @@ Description: Support library for tweaks.  zetsu等插件的依赖
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
 Name: Cephei Tweak Support(Roothide)
+
+Package: com.sunshinesong.volume-manager
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 1104
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.volume-manager_v1.0.3_iphoneos-arm64.deb
+Size: 253032
+MD5sum: 9f4aa9a3e8eb0abe5b8d26fa299bdddc
+SHA1: a8111d4d100d2a3d0c4db41ec1da21d8a1ffaa3f
+SHA256: 465ba2834352fa532e48cd67ffd715cdd7619f2af03a626fe7a1ca977d5ef89b
+Section: Tweaks
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
+Author: sunshinesong
+Name: VolumeManager(Rootless)
