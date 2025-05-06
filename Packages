@@ -1,14 +1,14 @@
 Package: com.be-huge.floating-view
-Version: 1.5.5-6
+Version: 1.5.5-7
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 3168
+Installed-Size: 3160
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.5-6_iphoneos-arm64.deb
-Size: 605658
-MD5sum: bf5f539dcf7cdeb1f3798c0597122ee7
-SHA1: 9465bd93933627c7a7e2c302a4a6fdbd5fdea7c2
-SHA256: d19acf0fa3926096bda4ca9b6dbc8f23845f524d08ec9f9896a48f394b322257
+Filename: ./debs/fv1.5.5-7_iphoneos-arm64.deb
+Size: 608322
+MD5sum: af5ca8f852d94c2c20f5c06b195f55be
+SHA1: c4a786dd1a2b4f56d75773eff9328a4432bd795d
+SHA256: ffffbb9ce8510f8c4a5c814d40c88700a689eb3eb5901f5a80ce421882049e9f
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
