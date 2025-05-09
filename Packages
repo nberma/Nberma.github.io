@@ -15,19 +15,19 @@ Author: be-huge
 Name: floatingView
 
 Package: com.susu.reachplayer
-Version: 4.0.2
+Version: 4.1.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏
-Installed-Size: 2064
+Installed-Size: 3200
 Depends: mobilesubstrate
-Filename: ./debs/com.susu.reachplayer_4.0.2_iphoneos-arm64.deb
-Size: 1092986
-MD5sum: 05b48108c2d5d9f4f2f987033550266e
-SHA1: bfad352a02cb7893926d692e81571155fae5f653
-SHA256: c6125cbb4d3c169bebfe4f1416a8266c8a18727b9a121ca471bf904e4c3e68f3
-Section: 插件
+Filename: ./debs/com.susu.reachplayer_4.1.0_iphoneos-arm64.deb
+Size: 1229926
+MD5sum: 5306a0dae3f0c160f9571cae84f752b4
+SHA1: 03c1b4aff67be8f33e867576bb6cb61cd2771370
+SHA256: 51dd52151efbda217bcb51a666679f8365780cbdd6861bbddf1279273c8127fa
+Section: Tweaks
 Description: ReachPlayer便捷访问音乐专辑
-Author: Tweaks
+Author: 苏苏
 Name: ReachPlayer音乐专辑
 
 Package: com.sunshinesong.split-view-pro
