@@ -49,7 +49,7 @@ Author: Evelyn
 Name: ElleKit(Roothide)
 
 Package: com.lclrc.hammerit
-Version: 1.8.0
+Version: 1.5.0
 Architecture: iphoneos-arm64e
 Maintainer: lclrc(SquidForce)
 Installed-Size: 2288
@@ -60,7 +60,7 @@ MD5sum: 5e931cd7f84547cc38dfc27617083e26
 SHA1: 506452291645619b76597c0e0fb358b9ead2f5cf
 SHA256: 672cd875b24a902ea7cbe8d9a5f68611549f4bf8dc5d9fc37a1d868839ff105c
 Section: Tweaks
-Description: Control your text or translate as you wish.    1.5.0版本
+Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Name: Hammer It(Roothide)
 
