@@ -562,3 +562,19 @@ Section: Tweaks
 Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
 Author: sunshinesong
 Name: VolumeManager(Roothide)
+
+Package: com.lclrc.hammerit
+Version: 1.8.0
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.5.0_iphoneos-arm64e.deb
+Size: 435518
+MD5sum: 5e931cd7f84547cc38dfc27617083e26
+SHA1: 506452291645619b76597c0e0fb358b9ead2f5cf
+SHA256: 672cd875b24a902ea7cbe8d9a5f68611549f4bf8dc5d9fc37a1d868839ff105c
+Section: Tweaks
+Description: Control your text or translate as you wish.    1.5.0版本
+Author: lclrc(SquidForce)
+Name: Hammer It(Roothide)
