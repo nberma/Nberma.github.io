@@ -626,19 +626,3 @@ Section: Tweaks
 Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
 Author: Huayuarc
 Name: Speed Intensifier(Roothide)
-
-Package: com.nahtedetihw.reachplayer
-Version: 2.6
-Architecture: iphoneos-arm
-Maintainer: Ethan Whited
-Installed-Size: 628
-Depends: mobilesubstrate
-Filename: ./debs/com.nahtedetihw.reachplayer_2.6_iphoneos-arm.deb
-Size: 117070
-MD5sum: dc0c0ccac01d157a92741b42fefebee5
-SHA1: a12dc763f98d1cf992a316a6e439e3705ee9b6a1
-SHA256: 3fc46dcbaa74570576395df0e48fc99319c0f8a226e74ffb72d35e2c08e3449e
-Section: Tweaks
-Description: Now Playing info in Reachability Window!
-Author: Ethan Whited
-Name: ReachPlayer
