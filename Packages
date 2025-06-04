@@ -15,16 +15,16 @@ Author: be-huge
 Name: floatingView
 
 Package: com.be-huge.tie-gesture-advance
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 1192
+Installed-Size: 1208
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.0.4_iphoneos-arm64.deb
-Size: 217934
-MD5sum: 7574ef97ef55c5f1b017d2591504f60f
-SHA1: 20bdb8f2be8b3e85cf760aee67363d66d79fe410
-SHA256: 4d754d6ab7fb55189796e60c8aaa884ca050a167b61428dac89d3960c249a906
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.0.5_iphoneos-arm64.deb
+Size: 221926
+MD5sum: 12d208e0e55ebc6b137700896fc12fa7
+SHA1: 9b6d2343c16ecbe3f0b4ccca63c24dbec2019912
+SHA256: c638aa16a94255b9ac2bb02d28dc34ac810d14b140202e7295ac44eae767cf21
 Section: Tweaks
 Description: 手势插件，一切从简即可。
 Author: be-huge
