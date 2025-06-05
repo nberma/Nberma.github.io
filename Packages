@@ -15,16 +15,16 @@ Author: be-huge
 Name: floatingView
 
 Package: com.be-huge.tie-gesture-advance
-Version: 1.0.5
+Version: 1.0.6
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 1208
+Installed-Size: 1224
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.0.5_iphoneos-arm64.deb
-Size: 221926
-MD5sum: 12d208e0e55ebc6b137700896fc12fa7
-SHA1: 9b6d2343c16ecbe3f0b4ccca63c24dbec2019912
-SHA256: c638aa16a94255b9ac2bb02d28dc34ac810d14b140202e7295ac44eae767cf21
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.0.6_iphoneos-arm64.deb
+Size: 237210
+MD5sum: a1370874dcd1dfaeb2b98e2240c7c1e3
+SHA1: bcb6c66d5f7465a233aa351cf86f10276683a01a
+SHA256: ef0a51589b70b5995d1a53c12e7ff7d82b3d1c874960e05890e7310b8dffe9ab
 Section: Tweaks
 Description: 手势插件，一切从简即可。
 Author: be-huge
@@ -142,6 +142,22 @@ Size: 23306
 MD5sum: b4628250ae7674817d71dd918e5dcfb0
 SHA1: 95c980b4af4c21802751c05191bb276a8a1530e0
 SHA256: 05d95e002b51160221c3ab148c872f44e677ae614f70adf987017a136b71b47f
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage(Rootless)
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.5_iphoneos-arm64.deb
+Size: 23320
+MD5sum: 7807a8bb6753a66d1d79d30317d60337
+SHA1: 75bb82754b5fdec3de4949ee2fb870e02996d4d1
+SHA256: fade8549cfb1b1d08a523004624f69a5f75379a1e4f5c6f50263c86a0ad43924
 Section: Tweaks
 Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
