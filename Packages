@@ -706,3 +706,20 @@ Section: Tweaks
 Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.CC真后台
 Author: @akusio_RR
 Name: BackgrounderAction15 CCSupport(Rootless)
+
+Package: jp.akusio.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: @akusio_RR
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction15_0.1.0_iphoneos-arm64e.deb
+Size: 13134
+MD5sum: 0731c04fdec324647595b5b8bc4d7914
+SHA1: 873c97dd8f3cc8ade1bb6a2052fcbbfd5f21c712
+SHA256: bcdd2bbf93428e4bf23850042d22cf8ee3baa3d539c1dbd6e45bdf88226da709
+Section: Tweaks
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.CC真后台
+Author: @akusio_RR
+Name: BackgrounderAction15 CCSupport(Roothide)
