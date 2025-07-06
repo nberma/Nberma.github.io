@@ -839,3 +839,20 @@ Section: Tweaks
 Description: Allows you to configure folders
 Author: Lizynz <lizynz@ya.ru>
 Name: FolderX(Rootless)
+
+Package: com.lizynz.folderx.rootless
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Lizynz <lizynz@ya.ru>
+Installed-Size: 752
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0), com.ichitaso.iconorder
+Filename: ./debs/com.lizynz.folderx.rootless_2.0_iphoneos-arm64e.deb
+Size: 106172
+MD5sum: 691797edbd75fbef33045af11739b4d0
+SHA1: aabdecc35f87b089f7d3e3a30d2dacb8b0c0607e
+SHA256: 3e7f887d11739825efba3c8c007516094d6aa3bc60f09e41ef5c75c54e92bf7e
+Section: Tweaks
+Description: Allows you to configure folders
+Author: Lizynz <lizynz@ya.ru>
+Name: FolderX(Roothide)
