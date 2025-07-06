@@ -723,3 +723,19 @@ Section: Tweaks
 Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.CC真后台
 Author: @akusio_RR
 Name: BackgrounderAction15 CCSupport(Roothide)
+
+Package: com.level3tjg.betterccbrightness
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: level3tjg
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.level3tjg.betterccbrightness_1.0.2_iphoneos-arm64.deb
+Size: 43514
+MD5sum: 9fc36ffe7051f451c79b55a54be0a375
+SHA1: 90aacf957dbc6f54e5b9cc91b843ad588d729dda
+SHA256: d251ba330d9619da61e52985f9abd9ebf73d1107a1a081c3be4949eb2157584e
+Section: Tweaks
+Description: Add more controls to the expanded brightness CC module
+Author: level3tjg
+Name: BetterCCBrightness(Rootless)
