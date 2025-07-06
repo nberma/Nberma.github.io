@@ -873,3 +873,21 @@ Section: Tweaks
 Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <jontelang@gmail.com>
 Name: InstaLauncher 2(Rootless)
+
+Package: com.jontelang.instalauncher2
+Version: 1.11.0
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Installed-Size: 1188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: ./debs/com.jontelang.instalauncher2_1.11.0_iphoneos-arm64e.deb
+Size: 265648
+MD5sum: 49fd9068b8f5574877ad03aa78f3e848
+SHA1: cfcaa84c1decce9a004cb0a3019a982a16e68fbc
+SHA256: e1e6f0dca05ace8b820883ba993096fa74c5a0328980243850a66ec38962d139
+Section: Tweaks
+Description: Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Name: InstaLauncher 2(Roothide)
