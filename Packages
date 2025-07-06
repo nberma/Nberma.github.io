@@ -739,3 +739,20 @@ Section: Tweaks
 Description: Add more controls to the expanded brightness CC module
 Author: level3tjg
 Name: BetterCCBrightness(Rootless)
+
+Package: com.level3tjg.betterccbrightness
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: level3tjg
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.level3tjg.betterccbrightness_1.0.2_iphoneos-arm64e.deb
+Size: 59380
+MD5sum: 0afc4bc9f354dd3fcf624ad9464d75c4
+SHA1: 89c04cab37c12a4da1170a588396c5d7d957aea6
+SHA256: 97da1c683e060441781ad296de4c27ceb9cfc6f84e02fb38f637156b8550fd83
+Section: Tweaks
+Description: Add more controls to the expanded brightness CC module
+Author: level3tjg
+Name: BetterCCBrightness(Roothide)
