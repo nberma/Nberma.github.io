@@ -774,6 +774,23 @@ Description: Get percentages for the sliders in the Control Center 13 - 16
 Author: iOS Creatix, kasiimh1, p2kdev
 Name: SugarCane 13/14/15/16(Rootless)
 
+Package: com.ioscreatix.sugarcane
+Version: 1.2.4.4
+Architecture: iphoneos-arm64e
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.ioscreatix.sugarcane_1.2.4.4_iphoneos-arm64e.deb
+Size: 11084
+MD5sum: ef4af37cbd82243e8107f0d181fad42c
+SHA1: cb949be28587389ee6aa355c55dcd8b5f3caebc6
+SHA256: 42780c74556ad5bb7cc0045c0be8b463916837ca2f3c1cf9bdee5f698e9feeb6
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center 13 - 16
+Author: iOS Creatix, kasiimh1, p2kdev
+Name: SugarCane 13/14/15/16(Roothide)
+
 Package: com.netskao.appdata
 Version: 1.4.4
 Architecture: iphoneos-arm64
@@ -789,3 +806,20 @@ Section: Netskao-Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData(Rootless)
+
+Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.4_iphoneos-arm64e.deb
+Size: 14517744
+MD5sum: eea470d13f53caffff93040ea0e63f71
+SHA1: 61fc37d99b8aeb1900bd86e96e12c4ab58f54532
+SHA256: 61919243b00369eb9667328ff3bc3e2e2fc5b48d309b9fbde817541e0ae6b7b1
+Section: Netskao-Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData(Roothide)
