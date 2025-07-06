@@ -802,7 +802,7 @@ Size: 5050184
 MD5sum: 0a30fdaba319fb8b77f626b2552ebf0d
 SHA1: 1f00f44e2ad3518325ed5ca430ac4502bd26d9d7
 SHA256: fc0f1648a8d3ceaac7ecbd1ae129ec1a5bec4a2421f946cd13b263c1c492d4b1
-Section: Netskao-Tweaks
+Section:Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData(Rootless)
@@ -819,7 +819,7 @@ Size: 14517744
 MD5sum: eea470d13f53caffff93040ea0e63f71
 SHA1: 61fc37d99b8aeb1900bd86e96e12c4ab58f54532
 SHA256: 61919243b00369eb9667328ff3bc3e2e2fc5b48d309b9fbde817541e0ae6b7b1
-Section: Netskao-Tweaks
+Section:Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData(Roothide)
