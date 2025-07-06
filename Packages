@@ -45,21 +45,19 @@ Description: Now Playing info in Reachability Window!
 Author: ETHN <ethanwhited2208@gmail.com>
 Name: ReachPlayer(Rootless)
 
-Package: com.susu.reachplayer
-Version: 4.1.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 3200
-Depends: mobilesubstrate
-Filename: ./debs/com.susu.reachplayer_4.1.0_iphoneos-arm64.deb
-Size: 1229926
-MD5sum: 5306a0dae3f0c160f9571cae84f752b4
-SHA1: 03c1b4aff67be8f33e867576bb6cb61cd2771370
-SHA256: 51dd52151efbda217bcb51a666679f8365780cbdd6861bbddf1279273c8127fa
-Section: 插件
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏
-Name: ReachPlayer音乐专辑
+Package: com.nahtedetihw.reachplayer-rootless
+Version: 2.6
+Architecture: iphoneos-arm64e
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64e.deb
+Size: 139458
+MD5sum: 8f378766dec21d752c973c4d1cafeafc
+SHA1: 2780a8a7ff170083ffc3e71433bdba6e0b61b8c4
+SHA256: 31296deafb59a3fca0de3a6043f73efd9da0598d5708e06748b18edc827460a0
+Section: Tweaks
+Author: ETHN <ethanwhited2208@gmail.com>
+Name: ReachPlayer-Rootless(Roothide)
 
 Package: ellekit
 Version: 1.1.3-1
