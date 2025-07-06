@@ -674,4 +674,22 @@ SHA256: a430e843b6e8c9245bc1c35250bfbedbb514f8161024d03e52760a93bc6190c9
 Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
-Name: BatteryBuddy
+Name: BatteryBuddy(Rootless)
+
+Package: dev.traurige.batterybuddy
+Version: 1.3.5
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64e.deb
+Size: 45560
+MD5sum: c1e8770908adab1193b13452e91b51a2
+SHA1: c222573d3edfdec3e811b6636ccc1479fc13ce46
+SHA256: 29efd444a68a5be9e0c0825923644c5dea231fd4c0957b0333c6315d2c8efaac
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy(Roothide)
