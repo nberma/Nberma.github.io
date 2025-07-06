@@ -823,3 +823,19 @@ Section: Netskao-Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData(Roothide)
+
+Package: com.lizynz.folderx.rootless
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Lizynz <lizynz@ya.ru>
+Installed-Size: 752
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0), com.ichitaso.iconorder
+Filename: ./debs/com.lizynz.folderx.rootless_2.0_iphoneos-arm64.deb
+Size: 83870
+MD5sum: 105f64c129fbc234576aac9ef9fe49a6
+SHA1: 649bf89b9dae70c27aeea470ce405b9f14b5d4c6
+SHA256: 8829ede582290d47f32025cde66e138a5eb5109273027c23ad65866308b8e599
+Section: Tweaks
+Description: Allows you to configure folders
+Author: Lizynz <lizynz@ya.ru>
+Name: FolderX(Rootless)
