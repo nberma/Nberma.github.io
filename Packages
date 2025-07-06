@@ -757,3 +757,19 @@ Section: Tweaks
 Description: Add more controls to the expanded brightness CC module
 Author: level3tjg
 Name: BetterCCBrightness(Roothide)
+
+Package: com.ioscreatix.sugarcane
+Version: 1.2.4.4
+Architecture: iphoneos-arm64
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Installed-Size: 172
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.ioscreatix.sugarcane_1.2.4.4_iphoneos-arm64.deb
+Size: 8344
+MD5sum: 19780a3ed03245a6468912c6bfc96763
+SHA1: 419e9503a597cd3005e884a0c039d223dec76402
+SHA256: 5bad24542dc1ae17c0ce6dd7c50fbcfeee192a2734863a337657c8f589697976
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center 13 - 16
+Author: iOS Creatix, kasiimh1, p2kdev
+Name: SugarCane 13/14/15/16(Rootless)
