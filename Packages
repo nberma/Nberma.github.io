@@ -658,3 +658,20 @@ Section: Tweaks
 Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
 Author: Huayuarc
 Name: Speed Intensifier(Roothide)
+
+Package: dev.traurige.batterybuddy
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64.deb
+Size: 35816
+MD5sum: aefbd1f7c2759da6e71bf0dd47e4016a
+SHA1: df04505c1d0bc8b770320220286051972c55795e
+SHA256: a430e843b6e8c9245bc1c35250bfbedbb514f8161024d03e52760a93bc6190c9
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy
