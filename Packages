@@ -56,6 +56,7 @@ MD5sum: 8f378766dec21d752c973c4d1cafeafc
 SHA1: 2780a8a7ff170083ffc3e71433bdba6e0b61b8c4
 SHA256: 31296deafb59a3fca0de3a6043f73efd9da0598d5708e06748b18edc827460a0
 Section: Tweaks
+Description: Now Playing info in Reachability Window!
 Author: ETHN <ethanwhited2208@gmail.com>
 Name: ReachPlayer-Rootless(Roothide)
 
