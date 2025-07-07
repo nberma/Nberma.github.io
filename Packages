@@ -877,3 +877,21 @@ Section: Tweaks
 Description: Little and colorful notification banners
 Author: Traurige <hello@traurige.dev>
 Name: Liddell(Rootless)
+
+Package: dev.traurige.liddell
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 672
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, dev.traurige.libkitten (>= 1.3.3), com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.liddell
+Filename: ./debs/dev.traurige.liddell_1.4.3_iphoneos-arm64e.deb
+Size: 124268
+MD5sum: 1f3d2aa11e5a196872bd517f41b6a4dd
+SHA1: 55a34e4ab474d9b48662026f3383515aac56e9fb
+SHA256: ef9b90ee09f1444fcb8e3cbd3c30d1878700d9b0cc861d75d12606dd67106f10
+Section: Tweaks
+Description: Little and colorful notification banners
+Author: Traurige <hello@traurige.dev>
+Name: Liddell(Roothide)
