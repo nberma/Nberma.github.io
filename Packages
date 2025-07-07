@@ -426,37 +426,6 @@ Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
 Author: Traurige <hello@traurige.dev>
 Name: libKitten(Roothide)
 
-Package: xyz.cypwn.networkmanager
-Version: 1.4.3
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64.deb
-Size: 61788
-MD5sum: d643c068401c30a04d459ed966081197
-SHA1: 8141fa10258f96c631a9e3eead8b36f2750df917
-SHA256: 2b256a19e11c1a9e15decde5a6e7ffff85ea3c1fef708ef7a45bd23d7805d516
-Section: Tweaks
-Description: Force 2G/3G/4G/5G connection from the Control Center
-Author: NoisyFlake, Nixuge
-Name: NetworkManagerReborn(Rootless)
-
-Package: xyz.cypwn.networkmanager
-Version: 1.4.3
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64e.deb
-Size: 46000
-MD5sum: 972c3d3140a7bae2ba23583a62af3031
-SHA1: 9a6c230157073f3b852217bff885718d64ce0501
-SHA256: 1508246ddf2f6de1cbd84f721796cbbd81be6427022f15f9d486a9bf64a25e0a
-Section: Tweaks
-Description: Force 2G/3G/4G/5G connection from the Control Center
-Author: NoisyFlake, Nixuge
-Name: NetworkManagerReborn(Roothide)
-
 Package: com.snail.always120.rootless
 Version: 1.1.7
 Architecture: iphoneos-arm64
@@ -891,3 +860,19 @@ Section: Tweaks
 Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <jontelang@gmail.com>
 Name: InstaLauncher 2(Roothide)
+
+Package: me.nixuge.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: Nixuge
+Installed-Size: 396
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64.deb
+Size: 37720
+MD5sum: 402214901aca2e45c30556ceb235c6a1
+SHA1: 2f986934a77a3a97876604913cff4fef84ba6f82
+SHA256: 98cc27a29834f7579b50ac0c60242b150dae0f8a29d1944a31a636614640544a
+Section: Tweaks
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Name: NetworkManagerReborn(Rootless)
