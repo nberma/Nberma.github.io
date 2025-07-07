@@ -876,3 +876,20 @@ Section: Tweaks
 Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
 Name: NetworkManagerReborn(Rootless)
+
+Package: me.nixuge.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Nixuge
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 46020
+MD5sum: 8e18c1db9a6b01f88bd2250015a554a8
+SHA1: ae9bc7aeb365b1147cffebb9249451290cfaa3cd
+SHA256: 09cf8551a7c77740b00bf7243ec864b252634552a6e92a9d1838befa3d64be08
+Section: Tweaks
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Name: NetworkManagerReborn(Roothide)
