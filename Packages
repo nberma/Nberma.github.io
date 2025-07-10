@@ -925,7 +925,7 @@ Size: 184392
 MD5sum: 163f55c68cb082386275f9c90a226880
 SHA1: 9cbb82dd9060ef0a9c92c22491ac6c2ffb2c07a2
 SHA256: 8567f38a1093bb3d83f12e9bfcfb445866c2fb47315b91d83db32e2501f6ba22
-Section: Utilities
+Section: Tweaks
 Description: (RootHide) 白名单注入辅助器
 Author: Domo, SXX , zp
 Name: CocoaTop64 inject
@@ -941,7 +941,7 @@ Size: 340492
 MD5sum: 1477a8e430b012487e44f6aa29f0cfa1
 SHA1: f1aa9c5b527829e96e49f63dc05a11816bba9119
 SHA256: b69311c41416cef294aaf5c5cf1a865f8d7d851c85a8d7f5b41b46b17e394e37
-Section: System
-Description: Configuare RootHide's Features
+Section: Tweaks
+Description: Configuare RootHide's Features 白名单管理器
 Author: zqbb, roothide
 Name: RootHide Inject Manager
