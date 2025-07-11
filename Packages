@@ -1,30 +1,30 @@
 Package: com.be-huge.floating-view
-Version: 1.5.6-4
+Version: 1.5.6-5
 Architecture: iphoneos-arm64
 Maintainer: be-huge
-Installed-Size: 3180
+Installed-Size: 3188
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/fv1.5.6-4_iphoneos-arm64.deb
-Size: 617320
-MD5sum: 52d39be29c4c3f7916eb375c5ccd6d64
-SHA1: f9d94a4a0b3808e7df0581ef6bf1ec08d71971b1
-SHA256: b5d57c891a322998051dee64824d38bbd8e1f44b98f5f846cd62499c8920c185
+Filename: ./debs/fv1.5.6-5_iphoneos-arm64.deb
+Size: 621560
+MD5sum: 7b20c341e1d1f199dd9527ca3cb03668
+SHA1: 8c01ec79682f8ed56a49495755ecba384b398092
+SHA256: 9639ac29414058fe3b1dfc5ee32fdf7a178c9b41eb4b580ff7d2007d1f19a8bb
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
 Package: com.be-huge.tie-gesture-advance
-Version: 1.0.9-1
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.0.9-1_iphoneos-arm64.deb
-Size: 241896
-MD5sum: ef9eed98281b740bd09ddf2883194507
-SHA1: 0a4ebd5936197513451b0bc384bd18c315e04a9b
-SHA256: 3a363c993b793d2584f57b71f422d303cdc23417d9c282d28c99b632281715e9
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.0_iphoneos-arm64.deb
+Size: 245586
+MD5sum: 7ff821e8b0924126499aca17472e0abb
+SHA1: ab47e7f61cea381ed11aa40eeeab8fb8a3cb8ce1
+SHA256: 9a409f403dcb063da1e90da0cd28be349d73cfe29e5626edd719216efd0d0c2f
 Section: Tweaks
 Description: 手势插件，一切从简即可。
 Author: be-huge
